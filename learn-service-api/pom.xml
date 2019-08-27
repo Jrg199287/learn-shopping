@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.jiaorg.springcloud-demo</groupId>
+		<artifactId>learn-shopping</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<artifactId>learn-service-api</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>learn-service-api</name>
+	<description>Demo project for Spring Boot</description>
+	<modules>
+		<module>learn-service-api-weixin</module>
+		<module>learn-service-api-member</module>
+	</modules>
+
+	<dependencies>
+
+		<!-- SpringBoot整合eureka客户端 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+		<!--common核心依赖-->
+	<!--	<dependency>
+			<groupId>com.mayikt</groupId>
+			<artifactId>meite-shop-common-core</artifactId>
+			<version>1.0-RELEASE</version>
+		</dependency>-->
+		<!--feign相关-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>
+
+	</dependencies>
+
+</project>
