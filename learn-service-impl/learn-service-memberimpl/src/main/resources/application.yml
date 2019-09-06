@@ -21,15 +21,15 @@ eureka:
 #
 #
 #####swagger相关配置
-#swagger:
-#  base-package: com.mayikt.weixin.member
-#  title: SpringCloud2.x构建微服务电商项目-微信服务接口
-#  description: 该项目“基于SpringCloud2.x构建微服务电商项目”
-#  version: 1.1
-#  terms-of-member-url: www.wxcs.cn
-#  contact:
-#    name: 比以往快10倍的登录方式
-#    email: 416660553@qq.com
+swagger:
+  base-package: com.mayikt.weixin.member
+  title: SpringCloud2.x构建微服务电商项目-微信服务接口
+  description: 该项目“基于SpringCloud2.x构建微服务电商项目”
+  version: 1.1
+  terms-of-member-url: www.wxcs.cn
+  contact:
+    name: 比以往快10倍的登录方式
+    email: 416660553@qq.com
 
 #logging:
 #  level:

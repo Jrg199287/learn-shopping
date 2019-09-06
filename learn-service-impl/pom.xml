@@ -75,6 +75,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.7.0.RELEASE</version>
+        </dependency>
         <!-- springboot整合mybatis（核心就这一个） -->
         <!-- 注意顺序，这个一定要放在最下面 -->
         <!--<dependency>

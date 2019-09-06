@@ -93,12 +93,11 @@
 
     <distributionManagement>
         <repository>
-            <id>xxm</id>
-            <url>http://192.168.170.129:8081/repository/xxm-release/</url>
+            <id>jrg</id>
+            <url>http://192.168.192.101:8081/repository/springcloud-jrg-release/</url>
         </repository>
     </distributionManagement>
     <repositories>
-
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
