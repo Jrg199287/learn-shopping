@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.7.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jiaorg.springcloud-demo</groupId>
     <artifactId>learn-shopping</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
     <name>learn-shopping</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -22,7 +22,8 @@
         <module>learn-service-api</module>
         <module>learn-service-impl</module>
     </modules>
-    <packaging>pom</packaging>
+
+
 
     <dependencies>
         <!-- 集成commons工具类 -->
@@ -90,8 +91,15 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <distributionManagement>
+   <!-- <profiles>
+        <profile>
+            <modules>
+                <module>learn-basics</module>
+                <module>learn-service-impl</module>
+            </modules>
+        </profile>
+    </profiles>-->
+   <distributionManagement>
         <repository>
             <id>jrg</id>
             <url>http://192.168.192.101:8081/repository/springcloud-jrg-release/</url>
@@ -113,13 +121,20 @@
     <build>
         <plugins>
             <!--发布代码Jar插件 -->
-            <plugin>
+          <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <version>2.7</version>
             </plugin>
+              <!--<plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <configuration>
+                     <skip>true</skip>
+                    </configuration>
+              </plugin>-->
             <!--发布源码插件 -->
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>2.2.1</version>
@@ -131,7 +146,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 

@@ -2,15 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>com.jiaorg.springcloud-demo</groupId>
 		<artifactId>learn-shopping</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>0.0.1-RELEASE</version>
 	</parent>
 	<artifactId>learn-service-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	<name>learn-service-api</name>
+	<packaging>pom</packaging>
 	<description>Demo project for Spring Boot</description>
 	<modules>
 		<module>learn-service-api-weixin</module>
@@ -41,5 +42,10 @@
 			<version>1.7.0.RELEASE</version>
 		</dependency>
 	</dependencies>
-
+	<distributionManagement>
+		<repository>
+			<id>jrg</id>
+			<url>http://192.168.192.101:8081/repository/springcloud-jrg-release</url>
+		</repository>
+	</distributionManagement>
 </project>

@@ -5,11 +5,10 @@
     <parent>
         <groupId>com.jiaorg.springcloud-demo</groupId>
         <artifactId>learn-shopping</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>0.0.1-RELEASE</version>
     </parent>
     <artifactId>learn-entity-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
     <name>learn-entity-api</name>
     <description>Demo project for Spring Boot</description>
 
@@ -24,7 +23,12 @@
         </dependency>
 
     </dependencies>
-
+    <distributionManagement>
+        <repository>
+            <id>jrg</id>
+            <url>http://192.168.192.101:8081/repository/springcloud-jrg-release</url>
+        </repository>
+    </distributionManagement>
 
 
 </project>
