@@ -2,12 +2,9 @@ package com.mayikt.member.service.impl;
 
 import com.jiaorg.springclouddemo.learnentityapi.weixinentity.AppEntity;
 import com.mayikt.api.member.MemberService;
-import com.mayikt.api.member.WeiXinService;
 import com.mayikt.member.service.fign.MemberServiceimplFign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.lang.reflect.Member;
 
 /**
  * @ClassName : WeiXinServiceImpl  //类名

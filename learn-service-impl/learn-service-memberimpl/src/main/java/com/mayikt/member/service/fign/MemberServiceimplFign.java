@@ -1,9 +1,7 @@
 package com.mayikt.member.service.fign;
 
-import com.jiaorg.springclouddemo.learnentityapi.weixinentity.AppEntity;
 import com.mayikt.api.member.WeiXinService;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * @ClassName : MemberServiceimpl  //类名

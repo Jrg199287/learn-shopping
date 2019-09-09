@@ -3,7 +3,6 @@ package com.mayikt.api.member;
 import com.jiaorg.springclouddemo.learnentityapi.weixinentity.AppEntity;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**

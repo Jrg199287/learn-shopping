@@ -1,5 +1,6 @@
 package com.mayikt.member.service;
 
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +15,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableSwagger2Doc
 @SpringBootApplication
 @EnableEurekaClient
-//@EnableApolloConfig
+@EnableApolloConfig
 @EnableFeignClients(basePackages = "com.mayikt.member")  //开启FeignClient支持
 @ComponentScan(basePackages={"com.mayikt.api","com.mayikt.member","com.mayikt.common"})//扫描接口
 public class MemberApplication {

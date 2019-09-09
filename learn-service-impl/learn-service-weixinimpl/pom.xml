@@ -68,15 +68,20 @@
         <dependency>
             <groupId>com.jiaorg.springcloud-demo</groupId>
             <artifactId>learn-service-api-weixin</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
+            <version>0.0.1-RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.jiaorg.springcloud-demo</groupId>
             <artifactId>learn-entity-api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1-RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-common-core</artifactId>
+            <version>0.0.1-RELEASE</version>
             <scope>compile</scope>
         </dependency>
+
         <!--引入wxJava依赖 结束-->
 
     </dependencies>

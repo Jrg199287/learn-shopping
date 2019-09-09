@@ -5,10 +5,22 @@
     <parent>
         <artifactId>learn-basics</artifactId>
         <groupId>com.jiaorg.springcloud-demo</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>learn-basics-springcloud-zuul</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencies>
         <!--<dependency>
             <groupId>com.mayikt</groupId>
@@ -34,7 +46,7 @@
         </dependency>
 
         <!-- 阿波罗整合 SpringBoot 开始 -->
-       <!-- <dependency>
+        <dependency>
             <groupId>com.ctrip.framework.apollo</groupId>
             <artifactId>apollo-client</artifactId>
             <version>1.0.0</version>
@@ -44,14 +56,12 @@
             <artifactId>apollo-core</artifactId>
             <version>1.0.0</version>
         </dependency>
-        &lt;!&ndash; 阿波罗整合 SpringBoot 结束 &ndash;&gt;
+        <!-- 阿波罗整合 SpringBoot 结束-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
-            &lt;!&ndash; optional=true,依赖不会传递，该项目依赖devtools；
-            之后依赖该项目的项目如果想要使用devtools，需要重新引入 &ndash;&gt;
             <optional>true</optional>
-        </dependency>-->
+        </dependency>
 
         <!-- springcloud feign组件 -->
         <dependency>

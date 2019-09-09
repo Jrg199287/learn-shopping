@@ -5,11 +5,10 @@
     <parent>
         <groupId>com.jiaorg.springcloud-demo</groupId>
         <artifactId>learn-shopping</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>0.0.1-RELEASE</version>
     </parent>
     <artifactId>learn-basics</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
     <name>learn-basics</name>
     <description>Demo project for Spring Boot</description>
     <modules>
