@@ -1,8 +1,13 @@
 package com.mayikt.member.service.impl;
 
-import com.jiaorg.springclouddemo.learnentityapi.weixinentity.AppEntity;
-import com.mayikt.api.member.MemberService;
-import com.mayikt.member.service.fign.MemberServiceimplFign;
+
+import com.mayikt.api.weixin.MemberService;
+import learn.entity.core.api.entity.UserEntity;
+import com.unity.core.base.BaseApiService;
+import com.unity.core.base.BaseResponse;
+import com.unity.core.constants.Constants;
+import com.mayikt.member.service.mapper.UserMapper;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,11 +19,24 @@ import org.springframework.web.bind.annotation.RestController;
  * 《身无彩凤双飞翼，心有灵犀一点通》
  */
 @RestController
-public class MemberServiceImpl implements MemberService {
+public class MemberServiceImpl extends BaseApiService<UserEntity> implements MemberService {
    @Autowired
-   private MemberServiceimplFign serviceimplFign;
+   private UserMapper userMapper;
+
    @Override
-   public AppEntity memberToWeixin() {
-      return serviceimplFign.getName();
+   public BaseResponse<UserEntity> existMobile(String mobile) {
+      // 1.验证参数
+      if (StringUtils.isEmpty(mobile)) {
+         return setResultError("手机号码不能为空!");
+      }
+      UserEntity userEntity = userMapper.existMobile(mobile);
+      if (userEntity == null) {
+         return setResultError(Constants.HTTP_RES_CODE_EXISTMOBILE_202, "用户不存在");
+      }
+      // 注意需要将敏感数据进行脱敏
+      userEntity.setPassword(null);
+      return setResultSuccess(userEntity);
    }
+
 }
+

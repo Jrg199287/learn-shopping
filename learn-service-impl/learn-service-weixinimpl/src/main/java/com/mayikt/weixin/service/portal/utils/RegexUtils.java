@@ -1,4 +1,4 @@
-package com.mayikt.common.core.utils;
+package com.mayikt.weixin.service.portal.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

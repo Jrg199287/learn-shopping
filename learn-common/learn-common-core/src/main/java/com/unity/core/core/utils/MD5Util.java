@@ -1,4 +1,4 @@
-package com.mayikt.common.core.utils;
+package com.unity.core.core.utils;
 
 import java.security.MessageDigest;
 

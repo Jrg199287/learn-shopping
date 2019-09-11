@@ -16,8 +16,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableApolloConfig
-@EnableFeignClients(basePackages = "com.mayikt.api")  //开启FeignClient支持
-@ComponentScan(basePackages={"com.mayikt.api","com.mayikt.weixin","com.mayikt.common"})//扫描接口
+@EnableFeignClients(basePackages = "com.mayikt.weixin")    //开启FeignClient支持
+@ComponentScan(basePackages={"com.mayikt.member","com.unity.core","com.mayikt.api"})//扫描接口
 public class WeiXinApplication {
     public static void main(String[] args) {
         SpringApplication.run(WeiXinApplication.class,args);

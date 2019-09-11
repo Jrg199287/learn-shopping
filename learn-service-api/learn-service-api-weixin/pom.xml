@@ -16,11 +16,6 @@
             <artifactId>meite-shop-api-weixin-dto</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>-->
-        <dependency>
-            <groupId>com.jiaorg.springcloud-demo</groupId>
-            <artifactId>learn-entity-api</artifactId>
-            <version>0.0.1-RELEASE</version>
-        </dependency>
     </dependencies>
     <distributionManagement>
         <repository>

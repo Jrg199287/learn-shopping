@@ -36,9 +36,7 @@ public class WxMpConfiguration {
     private UnsubscribeHandler unsubscribeHandler;
     private SubscribeHandler subscribeHandler;
     private ScanHandler scanHandler;
-
     private WxMpProperties properties;
-
     private static Map<String, WxMpMessageRouter> routers = Maps.newHashMap();
     private static Map<String, WxMpService> mpServices = Maps.newHashMap();
 

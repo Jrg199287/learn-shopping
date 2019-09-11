@@ -1,6 +1,6 @@
-package com.mayikt.member.service.fign;
+package com.mayikt.weixin.service.fign;
 
-import com.mayikt.api.weixin.WeiXinService;
+import com.mayikt.api.weixin.MemberService;
 import org.springframework.cloud.openfeign.FeignClient;
 
 /**
@@ -10,6 +10,6 @@ import org.springframework.cloud.openfeign.FeignClient;
  * @Date: 2019-08-27 15:25  //时间
  * 《身无彩凤双飞翼，心有灵犀一点通》
  */
-@FeignClient("app-mayikt-weixin")
-public interface MemberServiceimplFign extends WeiXinService {
+@FeignClient("app-mayikt-member")
+public interface WeixinServiceimplFign extends MemberService {
 }

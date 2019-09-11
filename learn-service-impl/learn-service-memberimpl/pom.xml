@@ -14,12 +14,12 @@
     <dependencies>
        <!--<dependency>
             <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-member-api-weixin</artifactId>
+            <artifactId>meite-shop-weixin-api-weixin</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-member-api-member</artifactId>
+            <artifactId>meite-shop-weixin-api-weixin</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
         <dependency>

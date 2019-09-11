@@ -1,14 +1,12 @@
+package com.mayikt.weixin.service.portal.utils;
 
-package com.mayikt.common.core.utils;
 
-
-import com.mayikt.common.core.constants.Constants;
+import com.unity.core.constants.Constants;
 
 /**
  * @author xxm
  * @create 2019-06-09 15:08
  */
-
 public class RediskeyUtils {
 
     // 微信注册码存放rediskey
@@ -22,4 +20,3 @@ public class RediskeyUtils {
         return Constants.MEMBER_TOKEN_KEYPREFIX+loginType+":";
     }
 }
-

@@ -1,4 +1,4 @@
-package com.mayikt.common.core.constants;
+package com.unity.core.constants;
 
 public interface Constants {
 	// 响应请求成功
@@ -31,7 +31,7 @@ public interface Constants {
 	String HTTP_RES_CODE_NOTUSER_203 = "203";
 
 	// token
-	String MEMBER_TOKEN_KEYPREFIX = "mayikt:member:login_";
+	String MEMBER_TOKEN_KEYPREFIX = "mayikt:weixin:login_";
 
 	// 安卓的登陆类型
 	String MEMBER_LOGIN_TYPE_ANDROID = "Android";

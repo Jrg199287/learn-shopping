@@ -50,7 +50,7 @@ public class AppGateWay {
 			List resources = new ArrayList();
 			// app-itmayiedu-order
 			// 网关使用服务别名获取远程服务的SwaggerApi
-			resources.add(swaggerResource("app-mayikt-member", "/app-mayikt-member/v2/api-docs", "2.0"));
+			resources.add(swaggerResource("app-mayikt-weixin", "/app-mayikt-weixin/v2/api-docs", "2.0"));
 			resources.add(swaggerResource("app-mayikt-weixin", "/app-mayikt-weixin/v2/api-docs", "2.0"));
 			return resources;
 		}

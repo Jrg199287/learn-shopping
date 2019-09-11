@@ -1,7 +1,9 @@
 package com.mayikt.weixin.service.impl;
 
-import com.jiaorg.springclouddemo.learnentityapi.weixinentity.AppEntity;
-import com.mayikt.api.member.WeiXinService;
+import com.mayikt.api.weixin.WeiXinService;
+import com.unity.core.base.BaseApiService;
+import com.unity.core.base.BaseResponse;
+import learn.entity.core.api.entity.AppEntitys;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 《身无彩凤双飞翼，心有灵犀一点通》
  */
 @RestController
-public class WeiXinServiceImpl implements WeiXinService {
+public class WeiXinServiceImpl extends BaseApiService implements WeiXinService {
    /**
     * 测试方法
     * @return
@@ -21,10 +23,10 @@ public class WeiXinServiceImpl implements WeiXinService {
    @Value("${learn_test_name}")
    private String name;
    @Override
-   public AppEntity getName() {
-      AppEntity appEntity = new AppEntity();
+   public BaseResponse<AppEntitys> getName() {
+      AppEntitys appEntity = new AppEntitys();
       appEntity.setName(name);
       appEntity.setPassword("bbb");
-      return appEntity;
+      return setResultSuccess(appEntity);
    }
 }

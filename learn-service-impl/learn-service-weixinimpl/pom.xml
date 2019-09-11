@@ -12,27 +12,11 @@
     <packaging>jar</packaging>
 
     <dependencies>
-       <!--<dependency>
-            <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-member-api-weixin</artifactId>
-            <version>1.0-RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-member-api-member</artifactId>
-            <version>1.0-RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-common-core</artifactId>
-            <version>1.0-RELEASE</version>
-        </dependency>-->
 
-        <dependency>
+
+       <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
-            <!-- optional=true,依赖不会传递，该项目依赖devtools；
-            之后依赖该项目的项目如果想要使用devtools，需要重新引入 -->
             <optional>true</optional>
         </dependency>
 
@@ -48,18 +32,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>
-                spring-cloud-starter-netflix-eureka-client
-            </artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>xstream</artifactId>
-                    <groupId>com.thoughtworks.xstream</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+
         <dependency>
             <artifactId>xstream</artifactId>
             <groupId>com.thoughtworks.xstream</groupId>
@@ -79,6 +52,24 @@
             <groupId>com.jiaorg.springcloud-demo</groupId>
             <artifactId>learn-common-core</artifactId>
             <version>0.0.1-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>learn-entity-core-api</groupId>
+            <artifactId>learn-entity-core-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-service-api-member</artifactId>
+            <version>0.0.1-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-service-memberimpl</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
 
