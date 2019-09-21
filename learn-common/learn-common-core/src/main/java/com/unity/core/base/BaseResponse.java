@@ -2,6 +2,8 @@ package com.unity.core.base;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 
  * 
@@ -14,12 +16,13 @@ import lombok.Data;
  *            私自分享视频和源码属于违法行为。
  */
 @Data
-public class BaseResponse<T> {
+public class BaseResponse<T> implements Serializable {
+	private static final long serialVersionUID = -8469420879227883186L;
 
 	/**
 	 * 返回码
 	 */
-	private Integer code;
+	private String code = "001000";
 	/**
 	 * 消息
 	 */
@@ -28,17 +31,50 @@ public class BaseResponse<T> {
 	 * 返回
 	 */
 	private T data;
-	// 分页
+
 
 	public BaseResponse() {
 
 	}
 
-	public BaseResponse(Integer code, String msg, T data) {
+	public BaseResponse(ResultCode resultCode) {
+		super();
+		this.code = resultCode.code()+"";
+		this.msg = resultCode.message();
+	}
+
+	public BaseResponse( String msg, T data) {
+		super();
+		this.msg = msg;
+		this.data = data;
+	}
+
+	public BaseResponse(String code, String msg, T data) {
 		super();
 		this.code = code;
 		this.msg = msg;
 		this.data = data;
+	}
+
+
+	public static <T> BaseResponse ok(T data) {
+		BaseResponse<T> commonResponse = new BaseResponse<>();
+		commonResponse.setMsg("success");
+		commonResponse.setData(data);
+		return commonResponse;
+	}
+
+	public static <T> BaseResponse ok() {
+		BaseResponse<T> commonResponse = new BaseResponse<>();
+		commonResponse.setMsg("success");
+		return commonResponse;
+	}
+
+	public static <T> BaseResponse error(String msg) {
+		BaseResponse<T> commonResponse = new BaseResponse<>();
+		commonResponse.setMsg(msg);
+		commonResponse.setCode("9999");
+		return commonResponse;
 	}
 
 }

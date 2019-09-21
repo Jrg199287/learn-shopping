@@ -3,7 +3,7 @@ package com.mayikt.api.weixin;
 import com.unity.core.base.BaseResponse;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import learn.entity.core.api.entity.AppEntitys;
+import learn.member.dto.output.ProductDto;
 import org.springframework.web.bind.annotation.GetMapping;
 /**
  * @ClassName : WeiXinService  //类名
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  */
 @Api(tags = "微信测试接口")
 public interface WeiXinService {
-    @GetMapping("/login")
+    @GetMapping("/weixin/login")
     @ApiOperation(value = "测试正确")
-    public BaseResponse<AppEntitys> getName();
+    public BaseResponse<ProductDto> getName();
 }

@@ -37,20 +37,9 @@
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.spring4all</groupId>
-			<artifactId>swagger-spring-boot-starter</artifactId>
-			<version>1.7.0.RELEASE</version>
-		</dependency>
-		<dependency>
 			<groupId>com.jiaorg.springcloud-demo</groupId>
 			<artifactId>learn-common-core</artifactId>
 			<version>0.0.1-RELEASE</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>learn-entity-core-api</groupId>
-			<artifactId>learn-entity-core-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>

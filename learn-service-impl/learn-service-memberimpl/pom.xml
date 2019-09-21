@@ -12,21 +12,6 @@
     <packaging>jar</packaging>
 
     <dependencies>
-       <!--<dependency>
-            <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-weixin-api-weixin</artifactId>
-            <version>1.0-RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-weixin-api-weixin</artifactId>
-            <version>1.0-RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-common-core</artifactId>
-            <version>1.0-RELEASE</version>
-        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -72,16 +57,16 @@
         </dependency>
         <dependency>
             <groupId>com.jiaorg.springcloud-demo</groupId>
-            <artifactId>learn-entity-api</artifactId>
-            <version>0.0.1-RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>com.jiaorg.springcloud-demo</groupId>
             <artifactId>learn-service-api-member</artifactId>
             <version>0.0.1-RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>learn-member-dto</groupId>
+            <artifactId>learn-member-dto</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
         <!--引入wxJava依赖 结束-->
-
     </dependencies>
 
 </project>

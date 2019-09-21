@@ -10,7 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <artifactId>learn-service-api-member</artifactId>
+    <version>0.0.1-RELEASE</version>
     <dependencies>
+        <dependency>
+            <groupId>learn-member-dto</groupId>
+            <artifactId>learn-member-dto</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
     <distributionManagement>
         <repository>

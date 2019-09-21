@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.unity.core.base.BaseResponse;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import learn.entity.core.api.entity.UserEntity;
+import learn.member.dto.input.UserInpDTO;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,9 +18,9 @@ public interface MemberRegisterService {
      * @param  registCode
 	 * @return
 	 */
-	@PostMapping("/register")
+	@PostMapping("/member/register")
 	@ApiOperation(value = "会员用户注册信息接口")
-	BaseResponse<JSONObject> register(@RequestBody UserEntity userEntity,
+	BaseResponse<JSONObject> register(@RequestBody UserInpDTO userEntity,
 									  @RequestParam("registCode") String registCode);
 
 }

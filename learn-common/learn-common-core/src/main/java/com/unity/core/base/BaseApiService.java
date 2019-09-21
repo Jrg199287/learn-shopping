@@ -1,14 +1,12 @@
 package com.unity.core.base;
 
+import com.unity.core.constants.Constants;
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
-import com.unity.core.constants.Constants;
-
-import lombok.Data;
-
 /**
- *
- *
+ * 
+ * 
  * @description: 微服务接口实现该接口可以使用传递参数可以直接封装统一返回结果集
  * @author: 97后互联网架构师-余胜军
  * @contact: QQ644064779、微信yushengjun644 www.mayikt.com
@@ -17,12 +15,11 @@ import lombok.Data;
  * @Copyright 该项目“基于SpringCloud2.x构建微服务电商项目”由每特教育|蚂蚁课堂版权所有，未经过允许的情况下，
  *            私自分享视频和源码属于违法行为。
  */
-
 @Data
 @Component
 public class BaseApiService<T> {
 
-	public BaseResponse<T> setResultError(String  code, String msg) {
+	public BaseResponse<T> setResultError(String code, String msg) {
 		return setResult(code, msg, null);
 	}
 
@@ -36,6 +33,10 @@ public class BaseApiService<T> {
 		return setResult(Constants.HTTP_RES_CODE_200, Constants.HTTP_RES_CODE_200_VALUE, data);
 	}
 
+
+
+
+
 	// 返回成功，沒有data值
 	public BaseResponse<T> setResultSuccess() {
 		return setResult(Constants.HTTP_RES_CODE_200, Constants.HTTP_RES_CODE_200_VALUE, null);
@@ -48,7 +49,24 @@ public class BaseApiService<T> {
 
 	// 通用封装
 	public BaseResponse<T> setResult(String code, String msg, T data) {
-		return new BaseResponse<T>(Integer.parseInt(code), msg, data);
+		return new BaseResponse<T>(code, msg, data);
 	}
 
+
+	// 调用数据库层判断
+	public Boolean toDaoResult(int result) {
+		return result > 0 ? true : false;
+	}
+
+
+	// 接口直接返回true 或者false
+	public Boolean isSuccess(BaseResponse<?> baseResp) {
+		if (baseResp == null) {
+			return false;
+		}
+		if (baseResp.getCode().equals(Constants.HTTP_RES_CODE_500)) {
+			return false;
+		}
+		return true;
+	}
 }

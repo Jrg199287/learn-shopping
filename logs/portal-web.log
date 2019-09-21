@@ -1,0 +1,610 @@
+2019-09-21 11:49:03.006 [ main ] - [ INFO  ] [ com.mayikt.com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 11:49:05.489 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-21 11:49:05.500 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 11:49:05.501 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 11:49:05.723 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 11:49:06.541 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 12:42:05.133 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:42:05.138 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:42:05.170 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:42:05.173 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:42:23.634 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:42:24.285 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-21 12:42:25.204 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:42:25.214 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:42:25.215 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:42:25.418 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:42:25.831 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 12:43:25.351 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:43:25.358 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:43:25.392 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:43:25.396 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:43:43.871 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:43:45.057 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-21 12:43:46.042 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:43:46.053 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:43:46.053 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:43:46.259 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:43:46.696 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-21 12:43:46.699 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-21 12:43:47.172 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 12:43:47.173 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 12:43:47.178 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 12:43:47.179 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 12:43:47.782 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2019-09-21 12:43:47.783 [ main ] - [ WARN  ] [ com.zaxxer.hikari.util.DriverDataSource : 68 ] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-21 12:43:47.993 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2019-09-21 12:43:51.416 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-21 12:43:51.817 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-21 12:43:51.818 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-21 12:43:51.970 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-21 12:43:51.970 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-21 12:43:52.232 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-21 12:43:52.554 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-21 12:43:52.554 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-21 12:43:52.554 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-21 12:43:52.554 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-21 12:43:52.555 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-21 12:43:52.555 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-21 12:43:52.555 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-21 12:43:52.804 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-21 12:43:52.807 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-21 12:43:52.810 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-21 12:43:52.815 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569041032813 with initial instances count: 2
+2019-09-21 12:43:52.818 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569041032818, current=UP, previous=STARTING]
+2019-09-21 12:43:52.821 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400: registering service...
+2019-09-21 12:43:52.880 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400 - registration status: 204
+2019-09-21 12:43:53.425 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:43:53.444 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 31.866 seconds (JVM running for 33.163)
+2019-09-21 12:44:41.933 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:44:41.939 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:44:41.972 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:44:41.975 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:45:00.488 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:45:01.163 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-21 12:45:02.030 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:45:02.041 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:45:02.041 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:45:02.250 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:45:02.669 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 12:48:29.170 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:48:29.175 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:48:29.206 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:48:29.209 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:48:47.611 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:48:48.163 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-21 12:48:48.952 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:48:48.960 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:48:48.961 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:48:49.132 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:48:49.477 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 12:49:51.748 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:49:51.754 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:49:51.786 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:49:51.788 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:50:10.202 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:50:10.777 [ main ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-21 12:50:11.508 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:50:11.516 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:50:11.516 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:50:11.692 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:50:12.003 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 12:52:58.117 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:52:58.126 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:52:58.169 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:52:58.173 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:53:16.661 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:53:18.078 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:53:18.087 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:53:18.087 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:53:18.276 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:53:18.636 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 12:54:28.499 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:54:28.504 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:54:28.539 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:54:28.542 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:54:46.968 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:54:48.277 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:54:48.287 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:54:48.287 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:54:48.452 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:54:48.769 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 12:55:19.621 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:55:19.629 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:55:19.676 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:55:19.681 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:55:38.089 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:55:39.443 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:55:39.453 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:55:39.453 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:55:39.629 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:55:40.072 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-21 12:55:40.073 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-21 12:55:40.543 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 12:55:40.544 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 12:55:40.548 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 12:55:40.549 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 12:55:44.119 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-21 12:55:44.475 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-21 12:55:44.476 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-21 12:55:44.587 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-21 12:55:44.587 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-21 12:55:44.821 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-21 12:55:44.968 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-21 12:55:44.968 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-21 12:55:44.969 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-21 12:55:44.969 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-21 12:55:44.969 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-21 12:55:44.970 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-21 12:55:44.970 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-21 12:55:45.150 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-21 12:55:45.153 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-21 12:55:45.156 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-21 12:55:45.158 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569041745157 with initial instances count: 2
+2019-09-21 12:55:45.161 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569041745161, current=UP, previous=STARTING]
+2019-09-21 12:55:45.163 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400: registering service...
+2019-09-21 12:55:45.374 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400 - registration status: 204
+2019-09-21 12:55:45.710 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:55:45.732 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 29.877 seconds (JVM running for 31.308)
+2019-09-21 12:56:59.912 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:56:59.920 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:56:59.966 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:56:59.972 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:57:18.437 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:57:19.757 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:57:19.765 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:57:19.766 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:57:19.967 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:57:20.423 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-21 12:57:20.425 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-21 12:57:20.935 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 12:57:20.935 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 12:57:20.941 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 12:57:20.941 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 12:57:24.555 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-21 12:57:24.877 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-21 12:57:24.878 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-21 12:57:24.990 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-21 12:57:24.990 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-21 12:57:25.224 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-21 12:57:25.377 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-21 12:57:25.378 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-21 12:57:25.378 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-21 12:57:25.378 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-21 12:57:25.379 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-21 12:57:25.379 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-21 12:57:25.379 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-21 12:57:25.588 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-21 12:57:25.593 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-21 12:57:25.595 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-21 12:57:25.598 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569041845597 with initial instances count: 3
+2019-09-21 12:57:25.600 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569041845600, current=UP, previous=STARTING]
+2019-09-21 12:57:25.602 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400: registering service...
+2019-09-21 12:57:25.785 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400 - registration status: 204
+2019-09-21 12:57:26.218 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:57:26.239 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 30.295 seconds (JVM running for 31.804)
+2019-09-21 12:58:33.938 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:58:33.948 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:58:33.990 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:58:33.994 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 12:58:52.445 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 12:58:53.999 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 12:58:54.009 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 12:58:54.009 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 12:58:54.204 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 12:58:54.609 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 12:59:58.023 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 12:59:58.028 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 12:59:58.058 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 12:59:58.061 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:00:16.417 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:00:17.531 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:00:17.539 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:00:17.540 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:00:17.695 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:00:17.995 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:01:07.077 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:01:07.081 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:01:07.110 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:01:07.113 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:01:25.494 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:01:26.609 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:01:26.616 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:01:26.616 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:01:26.772 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:01:27.065 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:01:54.387 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:01:54.392 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:01:54.429 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:01:54.432 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:02:12.838 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:02:13.938 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:02:13.946 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:02:13.946 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:02:14.105 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:02:14.397 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:02:46.961 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:02:46.967 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:02:47.007 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:02:47.011 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:03:05.447 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:03:06.553 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:03:06.561 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:03:06.562 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:03:06.709 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:03:07.068 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-21 13:03:07.070 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-21 13:03:07.463 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 13:03:07.464 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 13:03:07.469 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 13:03:07.469 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 13:03:10.776 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-21 13:03:11.048 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-21 13:03:11.049 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-21 13:03:11.138 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-21 13:03:11.139 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-21 13:03:11.330 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-21 13:03:11.458 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-21 13:03:11.458 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-21 13:03:11.459 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-21 13:03:11.459 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-21 13:03:11.459 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-21 13:03:11.459 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-21 13:03:11.459 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-21 13:03:11.636 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-21 13:03:11.639 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-21 13:03:11.643 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-21 13:03:11.645 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569042191645 with initial instances count: 2
+2019-09-21 13:03:11.648 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569042191648, current=UP, previous=STARTING]
+2019-09-21 13:03:11.650 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400: registering service...
+2019-09-21 13:03:11.816 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400 - registration status: 204
+2019-09-21 13:03:12.252 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:03:12.269 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 28.76 seconds (JVM running for 29.985)
+2019-09-21 13:05:13.694 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:05:13.699 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:05:13.732 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:05:13.736 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:05:32.109 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:05:33.447 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:05:33.458 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:05:33.459 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:05:33.639 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:05:34.005 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:08:13.138 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:08:13.142 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:08:13.175 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:08:13.178 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:08:31.567 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:08:33.000 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:08:33.010 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:08:33.010 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:08:33.194 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:08:33.540 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:09:49.629 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:09:49.634 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:09:49.667 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:09:49.672 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:10:08.087 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:10:09.446 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:10:09.457 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:10:09.458 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:10:09.637 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:10:09.978 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:10:55.005 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:10:55.010 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:10:55.044 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:10:55.047 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:11:13.467 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:11:14.971 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:11:14.979 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:11:14.979 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:11:15.160 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:11:15.536 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:12:42.891 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:12:42.897 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:12:42.932 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:12:42.938 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:13:01.397 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:13:02.805 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:13:02.813 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:13:02.813 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:13:02.992 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:13:03.356 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:18:32.835 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:18:32.842 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:18:32.881 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:18:32.884 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:18:51.313 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:18:52.509 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:18:52.519 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:18:52.519 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:18:52.689 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:18:53.040 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:25:36.437 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:25:36.442 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:25:36.474 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:25:36.476 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:25:54.850 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:25:56.092 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:25:56.101 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:25:56.101 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:25:56.264 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:25:56.571 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:33:04.164 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:33:04.172 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:33:04.211 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:33:04.214 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:33:22.668 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:33:24.075 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:33:24.085 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:33:24.086 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:33:24.279 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:33:24.638 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:42:09.126 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:42:09.131 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:42:09.168 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:42:09.172 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:42:27.625 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:42:28.990 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:42:29.001 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:42:29.002 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:42:29.185 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:42:29.526 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:46:34.828 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:46:34.833 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:46:34.866 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:46:34.869 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:46:53.257 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:46:54.594 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:46:54.604 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:46:54.604 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:46:54.777 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:46:55.092 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:47:58.875 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:47:58.881 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:47:58.921 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:47:58.924 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:48:17.347 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:48:18.744 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:48:18.755 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:48:18.756 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:48:18.938 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:48:19.301 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:51:37.324 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:51:37.330 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:51:37.365 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:51:37.369 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:51:55.785 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:51:57.222 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:51:57.232 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:51:57.233 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:51:57.429 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:51:57.890 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-21 13:51:57.892 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-21 13:51:58.370 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 13:51:58.371 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 13:51:58.376 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 13:51:58.376 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 13:52:01.929 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-21 13:52:02.250 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-21 13:52:02.251 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-21 13:52:02.361 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-21 13:52:02.362 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-21 13:52:02.590 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-21 13:52:02.742 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-21 13:52:02.743 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-21 13:52:02.743 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-21 13:52:02.743 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-21 13:52:02.743 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-21 13:52:02.743 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-21 13:52:02.744 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-21 13:52:02.909 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-21 13:52:02.911 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-21 13:52:02.913 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-21 13:52:02.916 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569045122915 with initial instances count: 2
+2019-09-21 13:52:02.920 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569045122920, current=UP, previous=STARTING]
+2019-09-21 13:52:02.922 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400: registering service...
+2019-09-21 13:52:03.141 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400 - registration status: 204
+2019-09-21 13:52:03.468 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:52:03.491 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 29.726 seconds (JVM running for 31.099)
+2019-09-21 13:52:52.678 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:52:52.684 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:52:52.720 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:52:52.724 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:53:11.147 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:53:12.448 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:53:12.459 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:53:12.460 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:53:12.637 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:53:12.979 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:54:51.239 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:54:51.244 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:54:51.280 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:54:51.283 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:55:09.706 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:55:11.023 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:55:11.031 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:55:11.031 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:55:11.214 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:55:11.564 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:55:59.310 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:55:59.317 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:55:59.355 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:55:59.358 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:56:17.798 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:56:19.203 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:56:19.211 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:56:19.212 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:56:19.413 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:56:19.796 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:56:47.873 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:56:47.879 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:56:47.919 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:56:47.922 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:57:06.377 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:57:07.763 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:57:07.773 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:57:07.774 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:57:07.956 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:57:08.345 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:57:43.442 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:57:43.447 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:57:43.484 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:57:43.487 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:58:01.895 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:58:03.205 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:58:03.213 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:58:03.213 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:58:03.397 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:58:03.745 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:58:44.498 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:58:44.504 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:58:44.538 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:58:44.542 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 13:59:02.943 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 13:59:04.211 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 13:59:04.220 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 13:59:04.221 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 13:59:04.393 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 13:59:04.727 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 13:59:50.848 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 13:59:50.854 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 13:59:50.888 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 13:59:50.891 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 14:00:09.295 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 14:00:10.486 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:00:10.497 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 14:00:10.497 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 14:00:10.668 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 14:00:11.118 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-21 14:00:11.121 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-21 14:00:11.616 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 14:00:11.617 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 14:00:11.624 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 14:00:11.624 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 14:00:15.170 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-21 14:00:15.461 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-21 14:00:15.462 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-21 14:00:15.566 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-21 14:00:15.567 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-21 14:00:15.784 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-21 14:00:15.919 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-21 14:00:15.919 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-21 14:00:15.919 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-21 14:00:15.920 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-21 14:00:15.920 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-21 14:00:15.920 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-21 14:00:15.920 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-21 14:00:16.084 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-21 14:00:16.087 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-21 14:00:16.089 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-21 14:00:16.092 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569045616091 with initial instances count: 2
+2019-09-21 14:00:16.095 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569045616095, current=UP, previous=STARTING]
+2019-09-21 14:00:16.099 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400: registering service...
+2019-09-21 14:00:16.303 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400 - registration status: 204
+2019-09-21 14:00:16.634 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:00:16.653 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 29.198 seconds (JVM running for 30.477)
+2019-09-21 14:01:10.747 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 14:01:10.755 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 14:01:10.802 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 14:01:10.805 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 14:01:29.244 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 14:01:30.540 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:01:30.550 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 14:01:30.551 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 14:01:30.728 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 14:01:31.058 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 14:02:42.092 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 14:02:42.100 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 14:02:42.152 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 14:02:42.159 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 14:03:00.629 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 14:03:02.000 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:03:02.010 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 14:03:02.010 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 14:03:02.211 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 14:03:02.566 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 14:03:26.786 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 14:03:26.791 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 14:03:26.824 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 14:03:26.827 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 14:03:45.229 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 14:03:46.653 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:03:46.663 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 14:03:46.663 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 14:03:46.845 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 14:03:47.250 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-21 14:04:20.026 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 14:04:20.033 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 14:04:20.072 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 14:04:20.076 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 14:04:38.478 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 14:04:39.818 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:04:39.827 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 14:04:39.828 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 14:04:40.003 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 14:04:40.450 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-21 14:04:40.452 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-21 14:04:40.927 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 14:04:40.928 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 14:04:40.935 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 14:04:40.935 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 14:04:44.470 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-21 14:04:44.796 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-21 14:04:44.796 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-21 14:04:44.907 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-21 14:04:44.907 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-21 14:04:45.161 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-21 14:04:45.310 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-21 14:04:45.311 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-21 14:04:45.311 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-21 14:04:45.311 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-21 14:04:45.311 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-21 14:04:45.311 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-21 14:04:45.312 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-21 14:04:45.490 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-21 14:04:45.493 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-21 14:04:45.495 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-21 14:04:45.499 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569045885498 with initial instances count: 2
+2019-09-21 14:04:45.503 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569045885502, current=UP, previous=STARTING]
+2019-09-21 14:04:45.505 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400: registering service...
+2019-09-21 14:04:45.704 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400 - registration status: 204
+2019-09-21 14:04:46.034 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:04:46.055 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 29.66 seconds (JVM running for 30.978)
+2019-09-21 14:06:10.052 [ main ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-21 14:06:10.058 [ main ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 130 ] - Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-21 14:06:10.098 [ main ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-21 14:06:10.101 [ main ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env UNKNOWN from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-21 14:06:28.524 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-21 14:06:30.099 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:06:30.112 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-21 14:06:30.112 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-21 14:06:30.350 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-21 14:06:30.930 [ main ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-21 14:06:30.932 [ main ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-21 14:06:31.495 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 14:06:31.495 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 14:06:31.503 [ main ] - [ WARN  ] [ com.netflix.config.sources.URLConfigurationSource : 121 ] - No URLs will be polled as dynamic configuration sources.
+2019-09-21 14:06:31.503 [ main ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 122 ] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-21 14:06:35.562 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-21 14:06:35.955 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-21 14:06:35.955 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-21 14:06:36.085 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-21 14:06:36.086 [ main ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-21 14:06:36.430 [ main ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-21 14:06:36.628 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-21 14:06:36.629 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-21 14:06:36.629 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-21 14:06:36.629 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-21 14:06:36.629 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-21 14:06:36.630 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-21 14:06:36.630 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-21 14:06:36.821 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-21 14:06:36.823 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-21 14:06:36.826 [ main ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-21 14:06:36.829 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569045996828 with initial instances count: 2
+2019-09-21 14:06:36.831 [ main ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569045996831, current=UP, previous=STARTING]
+2019-09-21 14:06:36.833 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400: registering service...
+2019-09-21 14:06:37.022 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8400 - registration status: 204
+2019-09-21 14:06:37.451 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8400"]
+2019-09-21 14:06:37.470 [ main ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 31.297 seconds (JVM running for 32.661)
