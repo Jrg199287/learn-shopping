@@ -52,11 +52,6 @@
             <version>1.0.0</version>
         </dependency>
         <!-- 阿波罗整合 SpringBoot 结束-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
 
         <!-- springcloud feign组件 -->
         <dependency>

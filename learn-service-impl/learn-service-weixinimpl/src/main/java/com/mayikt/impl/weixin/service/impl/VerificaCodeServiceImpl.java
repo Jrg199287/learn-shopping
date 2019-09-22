@@ -8,9 +8,11 @@ import com.unity.core.constants.Constants;
 import com.unity.core.core.utils.RedisUtil;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@Service
 public class VerificaCodeServiceImpl extends BaseApiService<JSONObject> implements VerificaCodeService {
 
 	@Autowired

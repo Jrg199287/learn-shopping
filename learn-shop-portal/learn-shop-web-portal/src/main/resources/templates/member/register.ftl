@@ -5,8 +5,8 @@
 <title>蚂蚁商城-注册</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="../res/layui/css/layui.css">
-<link rel="stylesheet" href="../res/static/css/register.css">
+<link rel="stylesheet" href="layui/css/layui.css">
+<link rel="stylesheet" href="css/register.css">
 </head>
 <body>
 
@@ -100,7 +100,7 @@
 	<#include "../base/bottom.ftl"/>
 
 
-	<script src="../res/layui/layui.js"></script>
+	<script src="layui/layui.js"></script>
 	<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
 	<!--[if lt IE 9]>
   <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
@@ -108,7 +108,7 @@
 <![endif]-->
 	<script>
 		layui.config({
-			base : '../res/static/js/'
+			base : 'js/'
 		}).use('house');
 
 		//获取验证码

@@ -1,22 +1,22 @@
-/*
 package com.mayikt.portal.member.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.mayikt.api.member.service.MemberLoginService;
-import com.mayikt.api.member.service.QQAuthoriService;
-import com.mayikt.common.base.BaseResponse;
-import com.mayikt.common.constants.Constants;
-import com.mayikt.member.input.dto.UserLoginInpDTO;
-import com.mayikt.member.vo.LoginVo;
-import com.mayikt.web.base.BaseWebController;
-import com.mayikt.web.bean.MeiteBeanUtils;
-import com.mayikt.web.constants.WebConstants;
-import com.mayikt.web.utils.CookieUtils;
+
+import com.mayikt.api.weixin.MemberLoginService;
+import com.mayikt.api.weixin.QQAuthoriService;
+import com.mayikt.portal.constants.WebConstants;
+import com.mayikt.portal.member.vo.LoginVo;
 import com.qq.connect.api.OpenID;
 import com.qq.connect.api.qzone.UserInfo;
 import com.qq.connect.javabeans.AccessToken;
 import com.qq.connect.javabeans.qzone.UserInfoBean;
 import com.qq.connect.oauth.Oauth;
+import com.unity.core.base.BaseResponse;
+import com.unity.core.base.BaseWebController;
+import com.unity.core.constants.Constants;
+import com.unity.core.core.utils.CookieUtils;
+import com.unity.core.core.utils.MiteBeanUtils;
+import learn.member.dto.input.UserLoginInpDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,12 +24,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-*/
 /**
  * 
  * 
@@ -41,7 +39,7 @@ import javax.servlet.http.HttpSession;
  * @version V1.0
  * @Copyright 该项目“基于SpringCloud2.x构建微服务电商项目”由每特教育|蚂蚁课堂版权所有，未经过允许的情况下，
  *            私自分享视频和源码属于违法行为。
- *//*
+ */
 
 @Controller
 @Slf4j
@@ -50,22 +48,22 @@ public class QQAuthoriController extends BaseWebController {
 	private QQAuthoriService qqAuthoriFeign;
 
 	private static final String MB_QQ_QQLOGIN = "member/qqlogin";
+
 	@Autowired
 	private MemberLoginService memberLoginServiceFeign;
-	*/
+
 /**
 	 * 重定向到首页
-	 *//*
+	 */
 
 	private static final String REDIRECT_INDEX = "redirect:/";
 
-	*/
 /**
 	 * 生成授权链接
 	 * 
 	 * @param request
 	 * @return
-	 *//*
+	 */
 
 	@RequestMapping("/qqAuth")
 	public String qqAuth(HttpServletRequest request) {
@@ -74,16 +72,15 @@ public class QQAuthoriController extends BaseWebController {
 			log.info("authorizeURL:{}", authorizeURL);
 			return "redirect:" + authorizeURL;
 		} catch (Exception e) {
-			return ERROR_500_FTL;
+			return ERROR_FTL;
 		}
 	}
 
-	*/
-/**
+	/**
 	 * 
 	 * @param code
 	 * @return
-	 *//*
+	 */
 
 	@RequestMapping("/qqLoginBack")
 	public String qqLoginBack(String code, HttpServletRequest request, HttpServletResponse response, HttpSession httpSession) {
@@ -91,22 +88,22 @@ public class QQAuthoriController extends BaseWebController {
 			// 使用授权码获取accessToken
 			AccessToken accessTokenObj = (new Oauth()).getAccessTokenByRequest(request);
 			if (accessTokenObj == null) {
-				return ERROR_500_FTL;
+				return ERROR_FTL;
 			}
 			String accessToken = accessTokenObj.getAccessToken();
 			if (StringUtils.isEmpty(accessToken)) {
-				return ERROR_500_FTL;
+				return ERROR_FTL;
 			}
 			// 使用accessToken获取用户openid
 			OpenID openIDObj = new OpenID(accessToken);
 			String openId = openIDObj.getUserOpenID();
 			if (StringUtils.isEmpty(openId)) {
-				return ERROR_500_FTL;
+				return ERROR_FTL;
 			}
 			// 使用openid 查询数据库是否已经关联账号信息
 			BaseResponse<JSONObject> findByOpenId = qqAuthoriFeign.findByOpenId(openId);
 			if (!isSuccess(findByOpenId)) {
-				return ERROR_500_FTL;
+				return ERROR_FTL;
 			}
 			//// 如果调用接口返回203 ,跳转到关联账号页面
 			if (findByOpenId.getCode().equals(Constants.HTTP_RES_CODE_NOTUSER_203)) {
@@ -114,7 +111,7 @@ public class QQAuthoriController extends BaseWebController {
 				UserInfo qzoneUserInfo = new UserInfo(accessToken, openId);
 				UserInfoBean userInfoBean = qzoneUserInfo.getUserInfo();
 				if (userInfoBean == null) {
-					return ERROR_500_FTL;
+					return ERROR_FTL;
 				}
 				// 用户的QQ头像
 				String avatarURL100 = userInfoBean.getAvatar().getAvatarURL100();
@@ -131,23 +128,23 @@ public class QQAuthoriController extends BaseWebController {
 			return REDIRECT_INDEX;
 
 		} catch (Exception e) {
-			return ERROR_500_FTL;
+			return ERROR_FTL;
 		}
 
 	}
 
 	@RequestMapping("/qqJointLogin")
 	public String qqJointLogin(@ModelAttribute("loginVo") LoginVo loginVo, Model model, HttpServletRequest request,
-                               HttpServletResponse response, HttpSession httpSession) {
+							   HttpServletResponse response, HttpSession httpSession) {
 
 		// 1.获取用户openid
 		String qqOpenId = (String) httpSession.getAttribute(WebConstants.LOGIN_QQ_OPENID);
 		if (StringUtils.isEmpty(qqOpenId)) {
-			return ERROR_500_FTL;
+			return ERROR_FTL;
 		}
 
 		// 2.将vo转换dto调用会员登陆接口
-		UserLoginInpDTO userLoginInpDTO = MeiteBeanUtils.voToDto(loginVo, UserLoginInpDTO.class);
+		UserLoginInpDTO userLoginInpDTO = MiteBeanUtils.E2T(loginVo, UserLoginInpDTO.class);
 		userLoginInpDTO.setQqOpenId(qqOpenId);
 		userLoginInpDTO.setLoginType(Constants.MEMBER_LOGIN_TYPE_PC);
 		String info = webBrowserInfo(request);
@@ -165,4 +162,4 @@ public class QQAuthoriController extends BaseWebController {
 	}
 
 }
-*/
+

@@ -83,7 +83,6 @@
 			<artifactId>spring-session-data-redis</artifactId>
 		</dependency>
 		<!--spring-session依赖结束-->
-
 		<!-- sso core -->
 		<!--<dependency>
 			<groupId>com.xuxueli</groupId>

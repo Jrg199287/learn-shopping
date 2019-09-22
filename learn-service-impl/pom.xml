@@ -6,8 +6,8 @@
         <groupId>com.jiaorg.springcloud-demo</groupId>
         <artifactId>learn-shopping</artifactId>
         <version>0.0.1-RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>pom</packaging>
     <artifactId>learn-service-impl</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>learn-service-impl</name>

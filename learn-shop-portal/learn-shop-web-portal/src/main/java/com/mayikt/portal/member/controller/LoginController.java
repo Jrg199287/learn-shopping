@@ -1,9 +1,8 @@
-/*
 package com.mayikt.portal.member.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.mayikt.api.weixin.MemberLoginService;
 import com.mayikt.portal.constants.WebConstants;
+import com.mayikt.portal.feign.MemberLoginFignPortal;
 import com.mayikt.portal.member.vo.LoginVo;
 import com.unity.core.base.BaseResponse;
 import com.unity.core.base.BaseWebController;
@@ -11,7 +10,6 @@ import com.unity.core.constants.Constants;
 import com.unity.core.core.utils.CookieUtils;
 import com.unity.core.core.utils.MiteBeanUtils;
 import com.unity.core.core.utils.RandomValidateCodeUtil;
-import com.unity.core.core.utils.TypeCastHelper;
 import com.unity.core.view.ViewUtils;
 import learn.member.dto.input.UserLoginInpDTO;
 import lombok.extern.slf4j.Slf4j;
@@ -30,7 +28,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-*/
 /**
  * 
  * 
@@ -42,32 +39,27 @@ import javax.servlet.http.HttpSession;
  * @version V1.0
  * @Copyright 该项目“基于SpringCloud2.x构建微服务电商项目”由每特教育|蚂蚁课堂版权所有，未经过允许的情况下，
  *            私自分享视频和源码属于违法行为。
- *//*
-
+ */
 @Controller
 @Slf4j
 public class LoginController extends BaseWebController {
 	@Autowired
-	private MemberLoginService memberLoginServiceFeign;
-	*/
-/**
+	private MemberLoginFignPortal memberLoginServiceFeign;
+	/**
 	 * 跳转页面
 	 * 
 	 * @return
-	 *//*
-
+	 */
 	@GetMapping(value={"/login","/login.html"})
 	public String getLogin() {
 		return ViewUtils.PAGE_LOGIN_VIEW;
 	}
 
-	*/
-/**
+	/**
 	 * 接受请求参数
 	 * 
 	 * @return
-	 *//*
-
+	 */
 	@PostMapping("/login")
 	public String postLogin(@ModelAttribute("loginVo") @Validated LoginVo loginVo, BindingResult bindingResult, Model model, HttpServletRequest request,
 							HttpServletResponse response, HttpSession httpSession) {
@@ -91,8 +83,8 @@ public class LoginController extends BaseWebController {
 		// 3.将vo转换为dto
 		UserLoginInpDTO voToDto = MiteBeanUtils.E2T(loginVo, UserLoginInpDTO.class);
 		voToDto.setLoginType(Constants.MEMBER_LOGIN_TYPE_PC);
-		String info = webBrowserInfo(request);
-		voToDto.setDeviceInfor(info);
+		//String info = webBrowserInfo(request);
+		voToDto.setDeviceInfor("CHROM");
 		BaseResponse<JSONObject> login = memberLoginServiceFeign.login(voToDto);
 		if (!isSuccess(login)) {
 			setErrorMsg(model, login.getMsg());
@@ -103,17 +95,14 @@ public class LoginController extends BaseWebController {
 		String token = data.getString("token");
 		CookieUtils.setCookie(request, response, WebConstants.LOGIN_TOKEN_COOKIENAME, token,true);
 		// 登陆成功后，跳转到首页
-		// 登陆成功后，跳转到首页
 		return ViewUtils.REDIRECT_INDEX;
 	}
 
-	*/
-/**
+	/**
 	 * 退出登录
 	 * @param request
 	 * @return
-	 *//*
-
+	 */
 	@RequestMapping("/exit")
 	public String exit(HttpServletRequest request) {
 		// 1. 从cookie中获取token
@@ -124,10 +113,8 @@ public class LoginController extends BaseWebController {
 				return ViewUtils.REDIRECT_INDEX;
 			}
 		}
-
-		return ERROR_500_FTL;
+		return ERROR_FTL;
 	}
 
 
 }
-*/

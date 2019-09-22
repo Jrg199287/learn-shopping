@@ -15,7 +15,7 @@
         <dependency>
             <groupId>learn-member-dto</groupId>
             <artifactId>learn-member-dto</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1-RELEASE</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

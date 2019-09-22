@@ -5,6 +5,7 @@ import com.unity.core.base.BaseApiService;
 import com.unity.core.base.BaseResponse;
 import learn.member.dto.output.ProductDto;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 《身无彩凤双飞翼，心有灵犀一点通》
  */
 @RestController
+@Service
 public class WeiXinServiceImpl extends BaseApiService implements WeiXinService {
    /**
     * 测试方法

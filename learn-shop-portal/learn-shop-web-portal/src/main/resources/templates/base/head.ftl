@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<#assign basePath="">
 <head>
   <meta charset="UTF-8">
   <title>蚂蚁商城-首页</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="../res/layui/css/layui.css">
-  <link rel="stylesheet" href="../res/static/css/index.css">
+  <link rel="stylesheet" href="layui/css/layui.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
 
+<body>
 <div class="house-header">
   <div class="layui-container">
     <div class="house-nav">

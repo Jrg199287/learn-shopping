@@ -11,10 +11,13 @@ import com.mayikt.impl.member.service.dao.UserMapper;
 import learn.member.dto.input.UserInpDTO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@Service
 public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implements MemberRegisterService {
 	@Autowired
 	private UserMapper userMapper;
@@ -23,10 +26,6 @@ public class MemberRegisterServiceImpl extends BaseApiService<JSONObject> implem
 	@Override
 	public BaseResponse<JSONObject> register(@RequestBody UserInpDTO userEntity, String registCode) {
 		// 1.验证参数
-		String userName = userEntity.getUserName();
-		if (StringUtils.isEmpty(userName)) {
-			return setResultError("用户名称不能为空!");
-		}
 		String mobile = userEntity.getMobile();
 		if (StringUtils.isEmpty(mobile)) {
 			return setResultError("手机号码不能为空!");

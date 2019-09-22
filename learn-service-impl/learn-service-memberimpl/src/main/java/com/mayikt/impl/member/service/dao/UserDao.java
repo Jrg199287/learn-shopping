@@ -2,9 +2,11 @@ package com.mayikt.impl.member.service.dao;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.mayikt.impl.member.service.entity.UserEntity;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
+import org.springframework.stereotype.Repository;
 
 /**
  * <p>
@@ -14,6 +16,8 @@ import org.apache.ibatis.annotations.Update;
  * @author Xxm123
  * @since 2019-06-10
  */
+@Mapper
+@Repository
 public interface UserDao extends BaseMapper<UserEntity> {
     @Select("select * from meite_user where mobile=#{mobile}")
     UserEntity existMobile(@Param("mobile") String mobile);

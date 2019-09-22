@@ -1,9 +1,9 @@
 package com.mayikt.impl.member.service.dao;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
+@Mapper
+@Repository
 public interface UserTokenMapper {
 
 	@Select("SELECT id as id ,token as token ,login_type as LoginType, device_infor as deviceInfor ,is_availability as isAvailability,user_id as userId"

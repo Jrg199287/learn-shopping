@@ -1,7 +1,7 @@
 package com.mayikt.portal.controller;
 
-import com.mayikt.api.weixin.MemberService;
 import com.mayikt.portal.constants.WebConstants;
+import com.mayikt.portal.feign.MemberIndexPortal;
 import com.unity.core.base.BaseResponse;
 import com.unity.core.base.BaseWebController;
 import com.unity.core.core.utils.CookieUtils;
@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class IndexController extends BaseWebController {
-
-	private MemberService memberServiceFeign;
+	@Autowired
+	private MemberIndexPortal memberServiceFeign;
 	/**
 	 * 跳转到首页
 	 * 

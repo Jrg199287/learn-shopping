@@ -12,7 +12,7 @@ public class BaseWebController {
 	/**
 	 * 500页面
 	 */
-	protected static final String ERROR_500_FTL = "500.ftl";
+	protected static final String ERROR_FTL = "error";
 
 	// 接口直接返回true 或者false
 	public Boolean isSuccess(BaseResponse<?> baseResp) {
@@ -32,7 +32,9 @@ public class BaseWebController {
 	 */
 	public String webBrowserInfo(HttpServletRequest request) {
 		// 获取浏览器信息
-		Browser browser = UserAgent.parseUserAgentString(request.getHeader("User-Agent")).getBrowser();
+		String aa = request.getHeader("User-Agent");
+		UserAgent bb =  UserAgent.parseUserAgentString(aa);
+		Browser browser = bb.getBrowser();
 		// 获取浏览器版本号
 		Version version = browser.getVersion(request.getHeader("User-Agent"));
 		String info = browser.getName() + "/" + version.getVersion();

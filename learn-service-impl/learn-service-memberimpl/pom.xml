@@ -13,13 +13,6 @@
 
     <dependencies>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <!-- optional=true,依赖不会传递，该项目依赖devtools；
-            之后依赖该项目的项目如果想要使用devtools，需要重新引入 -->
-            <optional>true</optional>
-        </dependency>
 
         <!--引入wxJava依赖 开始-->
         <dependency>
@@ -63,7 +56,7 @@
         <dependency>
             <groupId>learn-member-dto</groupId>
             <artifactId>learn-member-dto</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1-RELEASE</version>
             <scope>compile</scope>
         </dependency>
         <!--引入wxJava依赖 结束-->

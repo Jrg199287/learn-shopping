@@ -1,8 +1,7 @@
-/*
 package com.mayikt.portal.member.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.mayikt.api.weixin.MemberRegisterService;
+import com.mayikt.portal.feign.MemberServiceFignPortal;
 import com.mayikt.portal.member.vo.RegisterVo;
 import com.unity.core.base.BaseResponse;
 import com.unity.core.base.BaseWebController;
@@ -20,11 +19,9 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
 
-*/
 /**
  * @version V1.0
  * @description: 注册请求
@@ -33,41 +30,32 @@ import javax.servlet.http.HttpSession;
  * @date: 2019年1月3日 下午3:03:17
  * @Copyright 该项目“基于SpringCloud2.x构建微服务电商项目”由每特教育|蚂蚁课堂版权所有，未经过允许的情况下，
  * 私自分享视频和源码属于违法行为。
- *//*
-
+ */
 @Controller
 @Slf4j
-@RequestMapping(value = "/portal")
 public class RegisterController extends BaseWebController {
-    */
-/**
+    /**
      * 跳转到登陆页面页面
-     *//*
-
+     */
     private static final String MB_LOGIN_FTL = "member/login";
-
     @Autowired
-    private MemberRegisterService memberRegisterServiceFeign;
+    private MemberServiceFignPortal memberRegisterServiceFeign;
 
-    */
-/**
+    /**
      * 跳转到注册页面
      *
      * @return
-     *//*
-
+     */
     @GetMapping("/register")
     public String getRegister() {
         return ViewUtils.PAGE_REGISTER_VIEW;
     }
 
-    */
-/**
+    /**
      * 跳转到注册页面
      *
      * @return
-     *//*
-
+     */
     @PostMapping("/register")
     public String postRegister(@ModelAttribute("registerVo") @Validated RegisterVo registerVo,
                                BindingResult bindingResult, HttpSession httpSession, Model model) {
@@ -111,4 +99,3 @@ public class RegisterController extends BaseWebController {
     }
 
 }
-*/

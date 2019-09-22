@@ -1,7 +1,7 @@
 package com.mayikt.impl.member.service.dao;
 
-import java.util.Date;
 
+import java.util.Date;
 public class BaseDo {
 	/**
 	 * 注册时间

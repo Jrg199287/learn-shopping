@@ -14,12 +14,6 @@
     <dependencies>
 
 
-       <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
-
         <!--引入wxJava依赖 开始-->
         <dependency>
             <groupId>com.github.binarywang</groupId>
@@ -69,7 +63,7 @@
         <dependency>
             <groupId>learn-weixin-dto</groupId>
             <artifactId>learn-weixin-dto</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1-RELEASE</version>
             <scope>compile</scope>
         </dependency>
         <!--引入wxJava依赖 结束-->

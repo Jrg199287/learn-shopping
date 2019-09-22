@@ -5,6 +5,7 @@ import com.mayikt.api.weixin.MemberLoginService;
 import com.mayikt.impl.member.service.dao.UserMapper;
 import com.mayikt.impl.member.service.dao.UserTokenDo;
 import com.mayikt.impl.member.service.dao.UserTokenMapper;
+import com.mayikt.impl.member.service.handle.MemberLoginHandle;
 import com.unity.core.base.BaseApiService;
 import com.unity.core.base.BaseResponse;
 import com.unity.core.constants.Constants;
@@ -17,6 +18,10 @@ import learn.member.dto.input.UserInpDTO;
 import learn.member.dto.input.UserLoginInpDTO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.TransactionStatus;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,11 +34,14 @@ import org.springframework.web.bind.annotation.RestController;
  * 《身无彩凤双飞翼，心有灵犀一点通》
  */
 @RestController
+@Service
 public class MemberLoginServiceImpl extends BaseApiService<JSONObject> implements MemberLoginService {
     @Autowired
     private UserMapper userMapper;
     @Autowired
     private UserTokenMapper userTokenMapper;
+    @Autowired
+    private MemberLoginHandle memberLoginHandle;
     /**
      * 手动事务工具类
      */
@@ -135,7 +143,18 @@ public class MemberLoginServiceImpl extends BaseApiService<JSONObject> implement
 
     @Override
     public BaseResponse<JSONObject> delToken(String token) {
-        return null;
+        if (StringUtils.isEmpty(token)) {
+            return setResultError("token不能为空!");
+        }
+        Boolean flag = true;
+        try {
+            flag = memberLoginHandle.doDelKey(token);
+        } catch (Exception e) {
+            e.printStackTrace();
+            flag = false;
+        }
+
+        return flag ? setResultSuccess("删除成功") : setResultError("删除失败!");
     }
 
 }

@@ -18,8 +18,8 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableEurekaClient
 @EnableApolloConfig
 @EnableFeignClients(basePackages = "com.mayikt.impl.member")    //开启FeignClient支持
-@ComponentScan(basePackages={"com.mayikt.impl.member","com.unity.core","com.mayikt.api"})//扫描接口
-@MapperScan(basePackages = "com.mayikt.impl.member.service.dao")
+@ComponentScan(basePackages={"com.unity.core","com.mayikt.impl"})//扫描接口
+//@MapperScan(basePackages = "com.mayikt.impl.member.service.dao")
 public class MemberApplication {
     public static void main(String[] args) {
         SpringApplication.run(MemberApplication.class,args);

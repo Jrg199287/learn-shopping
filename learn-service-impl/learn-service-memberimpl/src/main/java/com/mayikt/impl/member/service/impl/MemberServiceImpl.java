@@ -13,6 +13,8 @@ import learn.member.dto.input.UserInpDTO;
 import learn.member.dto.output.UserOutDTO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -23,6 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 《身无彩凤双飞翼，心有灵犀一点通》
  */
 @RestController
+@Service
 public class MemberServiceImpl extends BaseApiService<UserOutDTO> implements MemberService {
    @Autowired
    private UserMapper userMapper;
