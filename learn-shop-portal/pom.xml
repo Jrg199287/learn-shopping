@@ -12,7 +12,7 @@
 		<version>0.0.1-RELEASE</version>
 	</parent>
 	<artifactId>learn-shop-portal</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	<name>learn-shop-portal</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -61,9 +61,6 @@
 			<artifactId>velocity-engine-core</artifactId>
 			<version>2.0</version>
 		</dependency>
-
-
-
 		<!-- springcloud feign组件 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

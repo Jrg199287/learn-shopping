@@ -27,7 +27,6 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @EnableApolloConfig
 @EnableRedisHttpSession
 @EnableFeignClients(basePackages = "com.mayikt.portal")    //开启FeignClient支持
-@ComponentScan(basePackages={"com.mayikt.api"})//扫描接口
 public class PortalWebApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PortalWebApplication.class, args);

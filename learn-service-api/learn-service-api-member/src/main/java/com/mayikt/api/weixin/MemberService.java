@@ -5,10 +5,12 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
+import learn.member.dto.input.UserLoginInpDTO;
 import learn.member.dto.output.UserOutDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -42,5 +44,15 @@ public interface MemberService {
     @ApiOperation(value = "/getUserInfo")
     BaseResponse<UserOutDTO> getInfo(@RequestParam("token") String token);
 
+
+
+    /**
+     * SSO认证系统登陆接口
+     *
+     * @param userLoginInpDTO
+     * @return
+     */
+    @PostMapping("/ssoLogin")
+    public BaseResponse<UserOutDTO> ssoLogin(@RequestBody UserLoginInpDTO userLoginInpDTO);
 }
 

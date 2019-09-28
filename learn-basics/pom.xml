@@ -15,6 +15,7 @@
     <modules>
         <module>learn-basics-springcloud-eureka</module>
         <module>learn-basics-springcloud-zuul</module>
+        <module>learn-basics-sso-server</module>
     </modules>
 
     <dependencies>

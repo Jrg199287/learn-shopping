@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.jiaorg.springcloud-demo</groupId>
         <artifactId>learn-service-impl</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1-RELEASE</version>
     </parent>
     <artifactId>learn-service-weixinimpl</artifactId>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-RELEASE</version>
     <dependencies>
 
 
@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.jiaorg.springcloud-demo</groupId>
             <artifactId>learn-service-memberimpl</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1-RELEASE</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

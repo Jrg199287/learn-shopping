@@ -5,7 +5,7 @@
 <title>蚂蚁商城-QQ关联</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="/layui/css/layui.css">
+<link rel="stylesheet" href="layui/css/layui.css">
 <link rel="stylesheet" href="css/index.css">
 </head>
 <#assign basePath="/tapp-mayikt-portal-web">
@@ -111,7 +111,6 @@
 			</div>
 		</div>
 	</div>
-
 	<script src="layui/layui.js"></script>
 	<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
 	<!--[if lt IE 9]>

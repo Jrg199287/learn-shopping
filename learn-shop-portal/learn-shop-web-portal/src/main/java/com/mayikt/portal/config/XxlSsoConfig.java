@@ -1,6 +1,4 @@
-/*
 package com.mayikt.portal.config;
-
 import com.xxl.sso.core.conf.Conf;
 import com.xxl.sso.core.filter.XxlSsoWebFilter;
 import com.xxl.sso.core.util.JedisUtil;
@@ -9,11 +7,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-*/
 /**
  * @author xuxueli 2018-11-15
- *//*
+ */
 
 @Configuration
 public class XxlSsoConfig implements DisposableBean {
@@ -58,4 +54,4 @@ public class XxlSsoConfig implements DisposableBean {
 	}
 
 }
-*/
+

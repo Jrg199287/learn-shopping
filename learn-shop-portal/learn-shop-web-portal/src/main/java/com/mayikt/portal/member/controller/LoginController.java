@@ -113,7 +113,7 @@ public class LoginController extends BaseWebController {
 				return ViewUtils.REDIRECT_INDEX;
 			}
 		}
-		return ERROR_FTL;
+		return ViewUtils.REDIRECT_INDEX;
 	}
 
 

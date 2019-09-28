@@ -12,8 +12,6 @@ public class BaseWebController {
 	/**
 	 * 500页面
 	 */
-	protected static final String ERROR_FTL = "error";
-
 	// 接口直接返回true 或者false
 	public Boolean isSuccess(BaseResponse<?> baseResp) {
 		if (baseResp == null) {

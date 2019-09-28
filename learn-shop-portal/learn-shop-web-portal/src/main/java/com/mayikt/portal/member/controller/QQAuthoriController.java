@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.mayikt.api.weixin.MemberLoginService;
 import com.mayikt.api.weixin.QQAuthoriService;
 import com.mayikt.portal.constants.WebConstants;
+import com.mayikt.portal.feign.QqAuthorLoginFign;
 import com.mayikt.portal.member.vo.LoginVo;
 import com.qq.connect.api.OpenID;
 import com.qq.connect.api.qzone.UserInfo;
@@ -16,6 +17,7 @@ import com.unity.core.base.BaseWebController;
 import com.unity.core.constants.Constants;
 import com.unity.core.core.utils.CookieUtils;
 import com.unity.core.core.utils.MiteBeanUtils;
+import com.unity.core.view.ViewUtils;
 import learn.member.dto.input.UserLoginInpDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -45,7 +47,7 @@ import javax.servlet.http.HttpSession;
 @Slf4j
 public class QQAuthoriController extends BaseWebController {
 	@Autowired
-	private QQAuthoriService qqAuthoriFeign;
+	private QqAuthorLoginFign qqAuthoriFeign;
 
 	private static final String MB_QQ_QQLOGIN = "member/qqlogin";
 
@@ -72,7 +74,7 @@ public class QQAuthoriController extends BaseWebController {
 			log.info("authorizeURL:{}", authorizeURL);
 			return "redirect:" + authorizeURL;
 		} catch (Exception e) {
-			return ERROR_FTL;
+			return REDIRECT_INDEX;
 		}
 	}
 
@@ -88,22 +90,22 @@ public class QQAuthoriController extends BaseWebController {
 			// 使用授权码获取accessToken
 			AccessToken accessTokenObj = (new Oauth()).getAccessTokenByRequest(request);
 			if (accessTokenObj == null) {
-				return ERROR_FTL;
+				return ViewUtils.REDIRECT_INDEX;
 			}
 			String accessToken = accessTokenObj.getAccessToken();
 			if (StringUtils.isEmpty(accessToken)) {
-				return ERROR_FTL;
+				return ViewUtils.REDIRECT_INDEX;
 			}
 			// 使用accessToken获取用户openid
 			OpenID openIDObj = new OpenID(accessToken);
 			String openId = openIDObj.getUserOpenID();
 			if (StringUtils.isEmpty(openId)) {
-				return ERROR_FTL;
+				return ViewUtils.REDIRECT_INDEX;
 			}
 			// 使用openid 查询数据库是否已经关联账号信息
 			BaseResponse<JSONObject> findByOpenId = qqAuthoriFeign.findByOpenId(openId);
 			if (!isSuccess(findByOpenId)) {
-				return ERROR_FTL;
+				return ViewUtils.REDIRECT_INDEX;
 			}
 			//// 如果调用接口返回203 ,跳转到关联账号页面
 			if (findByOpenId.getCode().equals(Constants.HTTP_RES_CODE_NOTUSER_203)) {
@@ -111,7 +113,7 @@ public class QQAuthoriController extends BaseWebController {
 				UserInfo qzoneUserInfo = new UserInfo(accessToken, openId);
 				UserInfoBean userInfoBean = qzoneUserInfo.getUserInfo();
 				if (userInfoBean == null) {
-					return ERROR_FTL;
+					return ViewUtils.REDIRECT_INDEX;
 				}
 				// 用户的QQ头像
 				String avatarURL100 = userInfoBean.getAvatar().getAvatarURL100();
@@ -128,7 +130,7 @@ public class QQAuthoriController extends BaseWebController {
 			return REDIRECT_INDEX;
 
 		} catch (Exception e) {
-			return ERROR_FTL;
+			return ViewUtils.REDIRECT_INDEX;
 		}
 
 	}
@@ -140,7 +142,7 @@ public class QQAuthoriController extends BaseWebController {
 		// 1.获取用户openid
 		String qqOpenId = (String) httpSession.getAttribute(WebConstants.LOGIN_QQ_OPENID);
 		if (StringUtils.isEmpty(qqOpenId)) {
-			return ERROR_FTL;
+			return ViewUtils.REDIRECT_INDEX;
 		}
 
 		// 2.将vo转换dto调用会员登陆接口

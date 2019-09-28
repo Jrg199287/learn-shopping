@@ -103,7 +103,6 @@
 			</div>
 		</div>
 	</div>
-
 	<script src="layui/layui.js"></script>
 	<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
 	<!--[if lt IE 9]>
@@ -115,8 +114,6 @@
 		layui.config({
 			base : 'js/'
 		}).use('house');
-
-
         //获取验证码
         function getVerify(obj) {
             obj.src = "getVerify?" + Math.random();

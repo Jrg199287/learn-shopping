@@ -2645,3 +2645,810 @@ FTL stack trace ("~" means nesting-related):
 2019-09-22 18:09:37.452 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
 2019-09-22 18:09:37.476 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 31.568 seconds (JVM running for 33.275)
 2019-09-22 18:09:37.573 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 18:14:36.469 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 18:15:36.841 [ Thread-62 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569147336841, current=DOWN, previous=UP]
+2019-09-22 18:15:36.842 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:15:36.850 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:15:38.010 [ Thread-62 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 18:15:41.011 [ Thread-62 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 18:15:41.019 [ Thread-62 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 18:15:41.032 [ Thread-62 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 18:15:43.850 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 18:15:43.857 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 18:15:43.901 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 18:15:43.906 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 18:15:44.492 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:15:45.550 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:15:46.011 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:15:46.012 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:15:46.013 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:15:46.058 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:15:46.177 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:15:47.532 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:16:02.417 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:16:04.010 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:16:05.745 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:16:05.760 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:16:05.760 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:16:05.994 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:16:06.578 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 18:16:06.581 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 18:16:07.153 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:16:07.166 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:16:11.801 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 18:16:12.165 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 18:16:12.166 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 18:16:12.319 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 18:16:12.320 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 18:16:12.615 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 18:16:12.810 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 18:16:12.810 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 18:16:12.811 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 18:16:12.811 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 18:16:12.811 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 18:16:12.811 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 18:16:12.811 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 18:16:13.264 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 18:16:13.268 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 18:16:13.271 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 18:16:13.274 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569147373273 with initial instances count: 5
+2019-09-22 18:16:13.276 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569147373276, current=UP, previous=STARTING]
+2019-09-22 18:16:13.279 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:16:13.338 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:16:13.892 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:16:13.926 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 34.074 seconds (JVM running for 35.73)
+2019-09-22 18:16:33.887 [ Thread-3 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569147393887, current=DOWN, previous=UP]
+2019-09-22 18:16:33.888 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:16:33.895 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:16:35.040 [ Thread-3 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 18:16:37.747 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:16:38.041 [ Thread-3 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 18:16:38.048 [ Thread-3 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 18:16:38.058 [ Thread-3 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 18:16:39.069 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:16:39.584 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:16:39.586 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:16:39.586 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:16:39.625 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:16:39.715 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:16:41.032 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:16:41.709 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:16:42.721 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:16:43.171 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:16:43.171 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:16:43.171 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:16:43.216 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:16:43.314 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:16:44.639 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:16:52.102 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:16:52.114 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:16:53.177 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:16:53.281 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:16:53.712 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:16:53.713 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:16:53.713 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:16:53.763 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:16:53.829 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:16:53.831 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:16:53.831 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:16:53.872 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:16:53.873 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:16:53.984 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:16:55.205 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:16:55.295 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:17:41.216 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 18:17:41.227 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 18:17:41.300 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 18:17:41.307 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 18:17:59.823 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:18:01.635 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:18:03.466 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:18:03.480 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:18:03.480 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:18:03.732 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:18:04.421 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 18:18:04.424 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 18:18:05.037 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:18:05.049 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:18:09.744 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 18:18:10.190 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 18:18:10.191 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 18:18:10.488 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 18:18:10.488 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 18:18:10.988 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 18:18:11.194 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 18:18:11.194 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 18:18:11.194 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 18:18:11.194 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 18:18:11.194 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 18:18:11.194 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 18:18:11.195 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 18:18:11.638 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 18:18:11.642 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 18:18:11.645 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 18:18:11.651 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569147491649 with initial instances count: 4
+2019-09-22 18:18:11.653 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569147491653, current=UP, previous=STARTING]
+2019-09-22 18:18:11.657 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:18:11.721 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:18:12.286 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:18:12.325 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 35.901 seconds (JVM running for 38.766)
+2019-09-22 18:19:07.173 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 18:21:13.381 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:21:14.394 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:21:14.831 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:21:14.832 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:21:14.832 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:21:14.867 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:21:14.942 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:21:16.284 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:22:14.384 [ Thread-4 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569147734384, current=DOWN, previous=UP]
+2019-09-22 18:22:14.385 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:22:14.391 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:22:15.534 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 18:22:17.697 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:22:18.535 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 18:22:18.542 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 18:22:18.556 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 18:22:19.738 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:22:20.221 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:22:20.222 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:22:20.223 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:22:20.274 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:22:20.381 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:22:21.708 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:22:22.978 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:22:24.319 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:22:24.939 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:22:24.939 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:22:24.940 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:22:24.988 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:22:25.077 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:22:26.439 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:22:58.205 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:22:58.912 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:22:59.506 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:23:00.402 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:23:00.403 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:23:00.404 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:23:00.450 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-5].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:23:00.643 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:23:00.780 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:23:01.350 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:23:01.351 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:23:01.352 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:23:01.430 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:23:01.537 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:23:02.010 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:23:02.851 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:24:49.124 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:24:50.288 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:24:50.802 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:24:50.802 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:24:50.803 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:24:50.846 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-6].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:24:50.954 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:24:52.305 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:24:58.461 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 18:24:58.471 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 18:24:58.530 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 18:24:58.536 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 18:25:17.049 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:25:18.797 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:25:20.556 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:25:20.570 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:25:20.571 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:25:20.801 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:25:21.585 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 18:25:21.589 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 18:25:22.233 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:25:22.252 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:25:27.455 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 18:25:27.839 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 18:25:27.840 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 18:25:28.134 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 18:25:28.134 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 18:25:28.558 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 18:25:28.731 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 18:25:28.732 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 18:25:28.732 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 18:25:28.732 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 18:25:28.733 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 18:25:28.733 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 18:25:28.733 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 18:25:29.154 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 18:25:29.159 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 18:25:29.162 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 18:25:29.169 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569147929167 with initial instances count: 5
+2019-09-22 18:25:29.171 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569147929171, current=UP, previous=STARTING]
+2019-09-22 18:25:29.175 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:25:29.250 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:25:29.808 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:25:29.841 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 35.954 seconds (JVM running for 38.073)
+2019-09-22 18:28:51.490 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 18:30:28.736 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 18:31:09.622 [ Thread-4 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569148269622, current=DOWN, previous=UP]
+2019-09-22 18:31:09.623 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:31:09.635 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:31:10.833 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 18:31:12.792 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:31:13.835 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 18:31:13.842 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 18:31:13.856 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 18:31:14.370 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:31:14.979 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:31:14.980 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:31:14.981 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:31:15.031 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-7].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:31:15.144 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:31:16.492 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:31:17.649 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:31:19.045 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:31:19.591 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:31:19.591 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:31:19.592 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:31:19.634 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:31:19.733 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:31:21.111 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:31:57.096 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 18:31:57.106 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 18:31:57.180 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 18:31:57.188 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 18:32:15.730 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:32:17.548 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:32:19.338 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:32:19.354 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:32:19.355 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:32:19.614 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:32:20.314 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 18:32:20.317 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 18:32:21.078 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:32:21.091 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:32:25.963 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 18:32:26.418 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 18:32:26.419 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 18:32:26.646 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 18:32:26.647 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 18:32:27.148 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 18:32:27.434 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 18:32:27.434 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 18:32:27.434 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 18:32:27.435 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 18:32:27.435 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 18:32:27.435 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 18:32:27.437 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 18:32:27.924 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 18:32:27.929 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 18:32:27.933 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 18:32:27.939 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569148347937 with initial instances count: 5
+2019-09-22 18:32:27.943 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569148347943, current=UP, previous=STARTING]
+2019-09-22 18:32:27.947 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:32:28.004 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:32:28.560 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:32:28.595 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 36.289 seconds (JVM running for 38.594)
+2019-09-22 18:32:59.979 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 18:33:55.530 [ Thread-4 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569148435530, current=DOWN, previous=UP]
+2019-09-22 18:33:55.532 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:33:55.544 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:33:56.774 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 18:33:59.032 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:33:59.775 [ DiscoveryClient-0 ] - [ WARN  ] [ com.netflix.discovery.TimedSupervisorTask : 88 ] - task supervisor shutting down, can't accept the task
+2019-09-22 18:33:59.775 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 18:33:59.782 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 18:33:59.794 [ Thread-4 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 18:34:00.491 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:34:00.877 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:34:00.878 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:34:00.923 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-8].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:34:01.033 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:34:02.361 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:34:03.550 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:34:05.881 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:34:06.976 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:34:06.977 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:34:06.978 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:34:07.046 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:34:07.157 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:34:08.537 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:34:09.794 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:34:11.043 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:34:11.477 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:34:11.477 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:34:11.516 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-9].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:34:11.613 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:34:12.938 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:34:57.364 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 18:34:57.373 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 18:34:57.438 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 18:34:57.445 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 18:35:15.948 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:35:17.816 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:35:19.555 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:35:19.567 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:35:19.567 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:35:19.846 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:35:20.507 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 18:35:20.511 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 18:35:21.129 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:35:21.143 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:35:25.953 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 18:35:26.332 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 18:35:26.333 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 18:35:26.514 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 18:35:26.514 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 18:35:27.032 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 18:35:27.246 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 18:35:27.247 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 18:35:27.247 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 18:35:27.248 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 18:35:27.248 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 18:35:27.249 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 18:35:27.249 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 18:35:27.670 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 18:35:27.674 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 18:35:27.677 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 18:35:27.681 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569148527680 with initial instances count: 5
+2019-09-22 18:35:27.684 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569148527684, current=UP, previous=STARTING]
+2019-09-22 18:35:27.688 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:35:27.741 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:35:28.314 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:35:28.360 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 35.936 seconds (JVM running for 37.814)
+2019-09-22 18:35:38.073 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 18:36:53.147 [ Thread-81 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569148613147, current=DOWN, previous=UP]
+2019-09-22 18:36:53.148 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:36:53.155 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:36:54.291 [ Thread-81 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 18:36:57.293 [ Thread-81 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 18:36:57.299 [ Thread-81 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 18:36:57.309 [ Thread-81 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 18:37:05.282 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:37:06.192 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:37:06.618 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:37:06.618 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:37:06.650 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-10].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:37:06.719 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:37:08.023 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:37:37.978 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:37:38.913 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:37:39.372 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:37:39.373 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:37:39.412 [ restartedMain ] - [ INFO  ] [ o.a.c.c.ContainerBase.[Tomcat-11].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:37:39.494 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:37:39.838 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 18:37:39.846 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 18:37:39.905 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 18:37:39.909 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 18:37:40.790 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 18:37:58.353 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 18:38:00.009 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 18:38:01.868 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:38:01.883 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 18:38:01.884 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 18:38:02.111 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 18:38:02.809 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 18:38:02.812 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 18:38:03.496 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:38:03.508 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 18:38:08.156 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 18:38:08.633 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 18:38:08.634 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 18:38:08.858 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 18:38:08.859 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 18:38:09.327 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 18:38:09.479 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 18:38:09.480 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 18:38:09.480 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 18:38:09.480 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 18:38:09.481 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 18:38:09.481 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 18:38:09.481 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 18:38:09.885 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 18:38:09.888 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 18:38:09.892 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 18:38:09.897 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569148689895 with initial instances count: 5
+2019-09-22 18:38:09.900 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569148689900, current=UP, previous=STARTING]
+2019-09-22 18:38:09.904 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:38:09.960 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:38:10.527 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 18:38:10.558 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 35.045 seconds (JVM running for 37.109)
+2019-09-22 18:38:26.640 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 18:39:02.292 [ Thread-80 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569148742292, current=DOWN, previous=UP]
+2019-09-22 18:39:02.293 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 18:39:02.298 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 18:39:03.438 [ Thread-80 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 18:39:06.439 [ Thread-80 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 18:39:06.444 [ Thread-80 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 18:39:06.453 [ Thread-80 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 19:05:53.382 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:05:53.387 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:05:53.421 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:05:53.425 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:06:11.905 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:06:13.442 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:06:14.883 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:06:14.898 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:06:14.899 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:06:15.136 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:06:16.190 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 19:06:16.192 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 19:06:16.804 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:06:16.811 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:06:21.279 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 19:06:21.574 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 19:06:21.575 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 19:06:21.679 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 19:06:21.680 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 19:06:21.902 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:06:22.055 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 19:06:22.055 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 19:06:22.056 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 19:06:22.056 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 19:06:22.056 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 19:06:22.057 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 19:06:22.057 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 19:06:22.409 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 19:06:22.412 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 19:06:22.416 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 19:06:22.420 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569150382419 with initial instances count: 4
+2019-09-22 19:06:22.424 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569150382424, current=UP, previous=STARTING]
+2019-09-22 19:06:22.427 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:06:22.476 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:06:23.023 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:06:23.045 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 33.578 seconds (JVM running for 35.315)
+2019-09-22 19:09:16.540 [ Thread-65 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569150556540, current=DOWN, previous=UP]
+2019-09-22 19:09:16.540 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:09:16.546 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:09:17.786 [ Thread-65 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 19:09:20.787 [ Thread-65 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 19:09:20.792 [ Thread-65 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 19:09:20.801 [ Thread-65 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 19:09:24.576 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:09:25.197 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:09:25.483 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:09:25.483 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:09:25.484 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:09:25.514 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:09:25.583 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:09:26.850 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 19:10:06.974 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:10:06.981 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:10:07.029 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:10:07.035 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:10:25.470 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:10:26.731 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:10:28.112 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:10:28.125 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:10:28.126 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:10:28.337 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:10:28.862 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 19:10:28.864 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 19:10:29.349 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:10:29.360 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:10:33.571 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 19:10:33.902 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 19:10:33.903 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 19:10:34.041 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 19:10:34.042 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 19:10:34.350 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:10:34.503 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 19:10:34.504 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 19:10:34.504 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 19:10:34.504 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 19:10:34.505 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 19:10:34.505 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 19:10:34.505 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 19:10:34.890 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 19:10:34.894 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 19:10:34.897 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 19:10:34.901 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569150634900 with initial instances count: 3
+2019-09-22 19:10:34.904 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569150634904, current=UP, previous=STARTING]
+2019-09-22 19:10:34.907 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:10:34.960 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:10:35.506 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:10:35.530 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 32.447 seconds (JVM running for 34.594)
+2019-09-22 19:11:11.551 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 19:12:11.280 [ Thread-76 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569150731280, current=DOWN, previous=UP]
+2019-09-22 19:12:11.281 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:12:11.286 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:12:12.412 [ Thread-76 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 19:12:15.413 [ Thread-76 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 19:12:15.419 [ Thread-76 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 19:12:15.428 [ Thread-76 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 19:13:34.661 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:13:34.669 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:13:34.716 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:13:34.722 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:13:53.154 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:13:54.413 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:13:55.773 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:13:55.784 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:13:55.784 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:13:55.961 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:13:56.475 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 19:13:56.477 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 19:13:56.954 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:13:56.963 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:14:00.984 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 19:14:01.295 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 19:14:01.295 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 19:14:01.431 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 19:14:01.432 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 19:14:01.739 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:14:01.889 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 19:14:01.890 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 19:14:01.891 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 19:14:01.891 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 19:14:01.891 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 19:14:01.892 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 19:14:01.892 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 19:14:02.273 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 19:14:02.276 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 19:14:02.280 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 19:14:02.284 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569150842283 with initial instances count: 3
+2019-09-22 19:14:02.287 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569150842287, current=UP, previous=STARTING]
+2019-09-22 19:14:02.290 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:14:02.341 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:14:02.887 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:14:02.913 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 32.063 seconds (JVM running for 33.727)
+2019-09-22 19:14:24.460 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 19:18:05.754 [ Thread-76 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569151085754, current=DOWN, previous=UP]
+2019-09-22 19:18:05.754 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:18:05.760 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:18:06.886 [ Thread-76 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 19:18:17.937 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:18:17.943 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:18:17.991 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:18:17.996 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:18:36.404 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:18:37.552 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:18:38.869 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:18:38.880 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:18:38.881 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:18:39.056 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:18:39.953 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 19:19:00.645 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:19:00.651 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:19:00.694 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:19:00.698 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:19:19.083 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:19:20.161 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:19:21.414 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:19:21.426 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:19:21.426 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:19:21.596 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:19:22.288 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 19:22:41.608 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:22:41.614 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:22:41.658 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:22:41.664 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:23:00.140 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:23:01.514 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:23:03.087 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:23:03.098 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:23:03.099 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:23:03.305 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:23:04.177 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 19:30:09.286 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:30:09.295 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:30:09.354 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:30:09.360 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:30:27.781 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:30:29.167 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:30:29.181 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:30:30.545 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:30:30.554 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:30:30.555 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:30:30.737 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:30:31.644 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 19:30:31.647 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 19:30:32.089 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:30:32.102 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:30:32.671 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2019-09-22 19:30:32.835 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2019-09-22 19:30:36.111 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 19:30:36.416 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 19:30:36.416 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 19:30:36.719 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 19:30:36.719 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 19:30:37.041 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:30:37.177 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 19:30:37.177 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 19:30:37.177 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 19:30:37.178 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 19:30:37.178 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 19:30:37.178 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 19:30:37.178 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 19:30:37.425 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 19:30:37.429 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 19:30:37.433 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 19:30:37.437 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569151837435 with initial instances count: 4
+2019-09-22 19:30:37.440 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569151837440, current=UP, previous=STARTING]
+2019-09-22 19:30:37.443 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:30:37.495 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:30:38.041 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:30:38.069 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 32.782 seconds (JVM running for 34.604)
+2019-09-22 19:31:02.283 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 19:32:59.814 [ http-nio-8600-exec-4 ] - [ INFO  ] [ c.m.portal.member.controller.QQAuthoriController : 74 ] - authorizeURL:https://graph.qq.com/oauth2.0/authorize?client_id=101462456&redirect_uri=http://hz3wrb.natappfree.cc:8600/qqLoginBack&response_type=code&state=0ca5bcb8c6f3b4020d5d7dd32791ce1f&scope=get_user_info,add_topic,add_one_blog,add_album,upload_pic,list_album,add_share,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idollist,add_idol,del_ido,get_tenpay_addr
+2019-09-22 19:35:35.388 [ Thread-60 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569152135388, current=DOWN, previous=UP]
+2019-09-22 19:35:35.389 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:35:35.395 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:35:36.532 [ Thread-60 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 19:35:37.182 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:35:39.534 [ Thread-60 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 19:35:39.538 [ Thread-60 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 19:35:39.547 [ Thread-60 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 19:35:39.548 [ Thread-60 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - DatebookHikariCP - Shutdown initiated...
+2019-09-22 19:35:39.554 [ Thread-60 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - DatebookHikariCP - Shutdown completed.
+2019-09-22 19:35:42.774 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:35:43.862 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:35:43.877 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:35:44.276 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:35:44.276 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:35:44.277 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:35:44.312 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:35:44.568 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:35:45.852 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2019-09-22 19:38:44.775 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:38:44.781 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:38:44.833 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:38:44.839 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:39:03.260 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:39:04.717 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:39:04.733 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:39:06.238 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:39:06.249 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:39:06.250 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:39:06.445 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:39:07.515 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 19:39:07.519 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 19:39:08.149 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:39:08.173 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:39:08.928 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2019-09-22 19:39:09.145 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2019-09-22 19:39:12.509 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 19:39:12.826 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 19:39:12.827 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 19:39:13.120 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 19:39:13.121 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 19:39:13.456 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:39:13.601 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 19:39:13.601 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 19:39:13.602 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 19:39:13.602 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 19:39:13.602 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 19:39:13.602 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 19:39:13.602 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 19:39:13.851 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 19:39:13.854 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 19:39:13.858 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 19:39:13.863 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569152353861 with initial instances count: 4
+2019-09-22 19:39:13.865 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569152353865, current=UP, previous=STARTING]
+2019-09-22 19:39:13.869 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:39:13.923 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:39:14.471 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:39:14.499 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 33.784 seconds (JVM running for 35.644)
+2019-09-22 19:39:21.401 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 19:39:32.593 [ http-nio-8600-exec-7 ] - [ INFO  ] [ c.m.portal.member.controller.QQAuthoriController : 74 ] - authorizeURL:https://graph.qq.com/oauth2.0/authorize?client_id=101462456&redirect_uri=shop.mayikt.com:8600/qqLoginBack&response_type=code&state=d57bb5c1241fa7eb9096f1cc12da3673&scope=get_user_info,add_topic,add_one_blog,add_album,upload_pic,list_album,add_share,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idollist,add_idol,del_ido,get_tenpay_addr
+2019-09-22 19:39:57.740 [ http-nio-8600-exec-7 ] - [ INFO  ] [ c.m.portal.member.controller.QQAuthoriController : 74 ] - authorizeURL:https://graph.qq.com/oauth2.0/authorize?client_id=101462456&redirect_uri=shop.mayikt.com:8600/qqLoginBack&response_type=code&state=d57bb5c1241fa7eb9096f1cc12da3673&scope=get_user_info,add_topic,add_one_blog,add_album,upload_pic,list_album,add_share,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idollist,add_idol,del_ido,get_tenpay_addr
+2019-09-22 19:42:15.961 [ Thread-79 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569152535961, current=DOWN, previous=UP]
+2019-09-22 19:42:15.961 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:42:15.966 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:42:17.113 [ Thread-79 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 19:42:41.388 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 19:42:41.395 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 19:42:41.447 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 19:42:41.454 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 19:42:59.864 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 19:43:01.541 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:43:01.556 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 19:43:03.175 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:43:03.187 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 19:43:03.188 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 19:43:03.413 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 19:43:04.520 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 19:43:04.522 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 19:43:05.025 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:43:05.038 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 19:43:05.706 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2019-09-22 19:43:05.900 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2019-09-22 19:43:09.464 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 19:43:09.845 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 19:43:09.846 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 19:43:10.209 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 19:43:10.209 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 19:43:10.598 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:43:10.754 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 19:43:10.755 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 19:43:10.755 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 19:43:10.755 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 19:43:10.756 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 19:43:10.756 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 19:43:10.756 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 19:43:11.010 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 19:43:11.014 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 19:43:11.018 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 19:43:11.022 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569152591021 with initial instances count: 5
+2019-09-22 19:43:11.024 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569152591024, current=UP, previous=STARTING]
+2019-09-22 19:43:11.028 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 19:43:11.082 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 19:43:11.626 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 19:43:11.664 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 34.259 seconds (JVM running for 36.065)
+2019-09-22 19:44:06.841 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 19:44:06.939 [ http-nio-8600-exec-1 ] - [ INFO  ] [ c.m.portal.member.controller.QQAuthoriController : 74 ] - authorizeURL:https://graph.qq.com/oauth2.0/authorize?client_id=101462456&redirect_uri=http://shop.mayikt.com:8600/qqLoginBack&response_type=code&state=dba391419ee0229d35dc758fdd122153&scope=get_user_info,add_topic,add_one_blog,add_album,upload_pic,list_album,add_share,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idollist,add_idol,del_ido,get_tenpay_addr
+2019-09-22 19:48:10.759 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:53:10.761 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 19:58:10.763 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:03:10.765 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:03:21.413 [ http-nio-8600-exec-7 ] - [ INFO  ] [ com.unity.core.core.utils.RandomValidateCodeUtil : 73 ] - 1720
+2019-09-22 20:05:04.103 [ http-nio-8600-exec-4 ] - [ INFO  ] [ com.unity.core.core.utils.RandomValidateCodeUtil : 73 ] - 7397
+2019-09-22 20:08:10.767 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:08:39.674 [ http-nio-8600-exec-5 ] - [ INFO  ] [ com.unity.core.core.utils.RandomValidateCodeUtil : 73 ] - 9998
+2019-09-22 20:10:10.425 [ http-nio-8600-exec-4 ] - [ INFO  ] [ com.unity.core.core.utils.RandomValidateCodeUtil : 73 ] - 3352
+2019-09-22 20:13:10.769 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:16:00.319 [ http-nio-8600-exec-2 ] - [ INFO  ] [ com.unity.core.core.utils.RandomValidateCodeUtil : 73 ] - 3663
+2019-09-22 20:18:10.771 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:18:36.850 [ http-nio-8600-exec-8 ] - [ INFO  ] [ com.unity.core.core.utils.RandomValidateCodeUtil : 73 ] - 1744
+2019-09-22 20:18:46.723 [ http-nio-8600-exec-6 ] - [ INFO  ] [ com.unity.core.core.utils.RandomValidateCodeUtil : 73 ] - 2725
+2019-09-22 20:20:38.904 [ Thread-81 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569154838904, current=DOWN, previous=UP]
+2019-09-22 20:20:38.905 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 20:20:38.909 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 20:20:40.041 [ Thread-81 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 20:20:43.042 [ Thread-81 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 20:20:43.042 [ DiscoveryClient-0 ] - [ WARN  ] [ com.netflix.discovery.TimedSupervisorTask : 88 ] - task supervisor shutting down, can't accept the task
+2019-09-22 20:20:43.047 [ Thread-81 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 20:20:43.055 [ Thread-81 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 20:20:43.056 [ Thread-81 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - DatebookHikariCP - Shutdown initiated...
+2019-09-22 20:20:43.063 [ Thread-81 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - DatebookHikariCP - Shutdown completed.
+2019-09-22 20:20:55.724 [ restartedMain ] - [ INFO  ] [ c.c.f.f.i.provider.DefaultApplicationProvider : 85 ] - App ID is set to spring-learning by app.id property from System Property
+2019-09-22 20:20:55.731 [ restartedMain ] - [ INFO  ] [ c.c.f.f.internals.provider.DefaultServerProvider : 108 ] - Environment is set to [DEV] by JVM system property 'env'.
+2019-09-22 20:20:55.785 [ restartedMain ] - [ INFO  ] [ c.c.f.apollo.internals.DefaultMetaServerProvider : 42 ] - Located meta services from apollo.meta configuration: http://192.168.192.103:8080!
+2019-09-22 20:20:55.790 [ restartedMain ] - [ INFO  ] [ com.ctrip.framework.apollo.core.MetaDomainConsts : 87 ] - Located meta server address http://192.168.192.103:8080 for env DEV from com.ctrip.framework.apollo.internals.DefaultMetaServerProvider
+2019-09-22 20:21:14.198 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 647 ] - No active profile set, falling back to default profiles: default
+2019-09-22 20:21:15.709 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 20:21:15.726 [ restartedMain ] - [ WARN  ] [ org.mybatis.spring.mapper.ClassPathMapperScanner : 166 ] - No MyBatis mapper was found in '[com.mayikt.portal]' package. Please check your configuration.
+2019-09-22 20:21:17.178 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8600"]
+2019-09-22 20:21:17.190 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2019-09-22 20:21:17.190 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-22 20:21:17.392 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2019-09-22 20:21:18.369 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.EpollProvider : 68 ] - Starting without optional epoll library
+2019-09-22 20:21:18.373 [ restartedMain ] - [ INFO  ] [ io.lettuce.core.KqueueProvider : 70 ] - Starting without optional kqueue library
+2019-09-22 20:21:18.856 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 20:21:18.868 [ restartedMain ] - [ INFO  ] [ com.netflix.config.sources.URLConfigurationSource : 126 ] - URLs to be used as dynamic configuration source: [file:/C:/Users/Administrator/Desktop/%e6%9c%80%e6%96%b0springcloud%e8%a7%86%e9%a2%91/learn-shopping/learn-shop-portal/learn-shop-web-portal/target/classes/config.properties]
+2019-09-22 20:21:19.468 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - DatebookHikariCP - Starting...
+2019-09-22 20:21:19.644 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - DatebookHikariCP - Start completed.
+2019-09-22 20:21:23.040 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 349 ] - Initializing Eureka in region us-east-1
+2019-09-22 20:21:23.375 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 70 ] - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 20:21:23.376 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 71 ] - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 20:21:23.681 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 80 ] - Using XML encoding codec XStreamXml
+2019-09-22 20:21:23.682 [ restartedMain ] - [ INFO  ] [ c.n.discovery.provider.DiscoveryJerseyProvider : 81 ] - Using XML decoding codec XStreamXml
+2019-09-22 20:21:24.030 [ restartedMain ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:21:24.179 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 958 ] - Disable delta property : false
+2019-09-22 20:21:24.180 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 959 ] - Single vip registry refresh property : null
+2019-09-22 20:21:24.180 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 960 ] - Force full registry fetch : false
+2019-09-22 20:21:24.180 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 961 ] - Application is null : false
+2019-09-22 20:21:24.180 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 962 ] - Registered Applications size is zero : true
+2019-09-22 20:21:24.181 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 964 ] - Application version is -1: true
+2019-09-22 20:21:24.181 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1047 ] - Getting all instance registry info from the eureka server
+2019-09-22 20:21:24.451 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1056 ] - The response status is 200
+2019-09-22 20:21:24.454 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1270 ] - Starting heartbeat executor: renew interval is: 30
+2019-09-22 20:21:24.458 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.InstanceInfoReplicator : 60 ] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 20:21:24.463 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 449 ] - Discovery Client initialized at timestamp 1569154884461 with initial instances count: 4
+2019-09-22 20:21:24.466 [ restartedMain ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 1305 ] - Saw local status change event StatusChangeEvent [timestamp=1569154884466, current=UP, previous=STARTING]
+2019-09-22 20:21:24.470 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 20:21:24.526 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 20:21:25.074 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8600"]
+2019-09-22 20:21:25.103 [ restartedMain ] - [ INFO  ] [ com.mayikt.portal.PortalWebApplication : 59 ] - Started PortalWebApplication in 33.67 seconds (JVM running for 35.538)
+2019-09-22 20:25:24.527 [ http-nio-8600-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-22 20:25:25.092 [ http-nio-8600-exec-4 ] - [ INFO  ] [ com.unity.core.core.utils.RandomValidateCodeUtil : 73 ] - 0744
+2019-09-22 20:26:24.185 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:31:24.186 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:36:24.188 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:41:24.190 [ AsyncResolver-bootstrap-executor-0 ] - [ INFO  ] [ c.n.d.shared.resolver.aws.ConfigClusterResolver : 43 ] - Resolving eureka endpoints via configuration
+2019-09-22 20:42:41.446 [ Thread-80 ] - [ WARN  ] [ com.netflix.discovery.DiscoveryClient : 1303 ] - Saw local status change event StatusChangeEvent [timestamp=1569156161446, current=DOWN, previous=UP]
+2019-09-22 20:42:41.447 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 826 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600: registering service...
+2019-09-22 20:42:41.452 [ DiscoveryClient-InstanceInfoReplicator-0 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 835 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - registration status: 204
+2019-09-22 20:42:42.583 [ Thread-80 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 888 ] - Shutting down DiscoveryClient ...
+2019-09-22 20:42:45.585 [ Thread-80 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 922 ] - Unregistering ...
+2019-09-22 20:42:45.591 [ Thread-80 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 924 ] - DiscoveryClient_APP-MAYIKT-PORTAL-WEB/localhost:app-mayikt-portal-web:8600 - deregister  status: 200
+2019-09-22 20:42:45.603 [ Thread-80 ] - [ INFO  ] [ com.netflix.discovery.DiscoveryClient : 911 ] - Completed shut down of DiscoveryClient
+2019-09-22 20:42:45.604 [ Thread-80 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - DatebookHikariCP - Shutdown initiated...
+2019-09-22 20:42:45.613 [ Thread-80 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - DatebookHikariCP - Shutdown completed.
