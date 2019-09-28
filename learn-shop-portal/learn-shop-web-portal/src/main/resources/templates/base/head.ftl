@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>蚂蚁商城-首页</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="layui/css/layui.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="../layui/css/layui.css">
+  <link rel="stylesheet" href="../static/css/index.css">
 </head>
 <body>
 
@@ -14,11 +14,11 @@
     <div class="house-nav">
       <span class="layui-breadcrumb" lay-separator="|">
      <#if desensMobile??>
-       <a href="">${desensMobile}</a>
+         <a href="">${desensMobile}</a>
        <a href="">我的订单</a>
        <a href="/exit">退出</a>
       <#else >
-       <a href="login">登录</a>
+          <a href="login">登录</a>
      </#if>
      
         <a href="http://wpa.qq.com/msgrd?v=3&uin=483966038&site=qq&menu=yes">在线客服</a>
@@ -28,7 +28,7 @@
         <a href="login.html"><i class="layui-icon layui-icon-username"></i></a>
         <a href="usershop.html"><i class="layui-icon layui-icon-house-shop"></i></a>
       </span>
-    </div>
+    </div> 
     <div class="house-banner layui-form">
       <a class="banner" href="index.html">
         <img src="http://static.itmayiedu.com/12312312312312da.png" alt="家居商城">

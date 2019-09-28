@@ -25,8 +25,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
-        <!--引入腾讯联合登陆平台sdk-->
 
+        <!--引入腾讯联合登陆平台sdk-->
     </dependencies>
 
 

@@ -1,3 +1,4 @@
+
 package com.mayikt.portal.config;
 import com.xxl.sso.core.conf.Conf;
 import com.xxl.sso.core.filter.XxlSsoWebFilter;
@@ -7,16 +8,17 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
 /**
  * @author xuxueli 2018-11-15
  */
+
 
 @Configuration
 public class XxlSsoConfig implements DisposableBean {
 
 	@Value("${xxl.sso.server}")
 	private String xxlSsoServer;
-
 	@Value("${xxl.sso.logout.path}")
 	private String xxlSsoLogoutPath;
 
@@ -25,13 +27,10 @@ public class XxlSsoConfig implements DisposableBean {
 
 	@Value("${xxl.sso.redis.address}")
 	private String xxlSsoRedisAddress;
-
 	@Bean
 	public FilterRegistrationBean xxlSsoFilterRegistration() {
-
 		// xxl-sso, redis init
 		JedisUtil.init(xxlSsoRedisAddress);
-
 		// xxl-sso, filter init
 		FilterRegistrationBean registration = new FilterRegistrationBean();
 
@@ -54,4 +53,5 @@ public class XxlSsoConfig implements DisposableBean {
 	}
 
 }
+
 
