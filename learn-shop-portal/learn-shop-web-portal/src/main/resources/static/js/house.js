@@ -392,4 +392,4 @@ layui.define(['element', 'carousel', 'table', 'util'], function(exports){
   });
   
   exports('house', {}); 
-})
+});

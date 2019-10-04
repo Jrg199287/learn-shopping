@@ -20,7 +20,6 @@
 	</properties>
 
 	<dependencies>
-
 		<!-- SpringBoot整合eureka客户端 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -64,13 +63,20 @@
 			<artifactId>spring-session-data-redis</artifactId>
 		</dependency>
 		<!--spring-session依赖结束-->
-		<!-- sso core -->
-		<!--<dependency>
-			<groupId>com.xuxueli</groupId>
-			<artifactId>xxl-sso-core</artifactId>
-			<version>1.1.1-SNAPSHOT</version>
-		</dependency>-->
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>nl.bitwalker</groupId>
+			<artifactId>UserAgentUtils</artifactId>
+			<version>1.2.4</version>
+		</dependency>
 	</dependencies>
 
 </project>

@@ -30,7 +30,7 @@
 
         <dependency>
             <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-common-core</artifactId>
+            <artifactId>meite-shop-service-core</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>-->
 

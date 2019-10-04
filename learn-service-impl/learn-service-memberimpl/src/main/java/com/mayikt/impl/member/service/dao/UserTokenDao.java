@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  * <p>
- *  Mapper 接口
+ * Mapper 接口
  * </p>
  *
  * @author Xxm123

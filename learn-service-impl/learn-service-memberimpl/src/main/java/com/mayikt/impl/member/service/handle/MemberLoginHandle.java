@@ -75,6 +75,7 @@ public class MemberLoginHandle extends BaseApiService<JSONObject> {
 
     /**
      * 删除redis中的登录状态,并将meite_user_token表中的  当前终端在线状态设置为  失效:is_availability = 0
+     *
      * @param token
      * @return
      */

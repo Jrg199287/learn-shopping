@@ -3,6 +3,7 @@ package com.mayikt.api.weixin;
 import com.alibaba.fastjson.JSONObject;
 import com.unity.core.base.BaseResponse;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -18,7 +19,6 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Copyright 该项目“基于SpringCloud2.x构建微服务电商项目”由每特教育|蚂蚁课堂版权所有，未经过允许的情况下，
  *            私自分享视频和源码属于违法行为。
  */
-@FeignClient(value = "APP-MAYIKT-MEMBER")
 public interface QQAuthoriService {
 	/**
 	 * 根据 openid查询是否已经绑定,如果已经绑定，则直接实现自动登陆

@@ -5,7 +5,7 @@
   <title>蚂蚁商城-首页</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="../layui/css/layui.css">
-  <link rel="stylesheet" href="../static/css/index.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
@@ -20,7 +20,6 @@
       <#else >
           <a href="login">登录</a>
      </#if>
-     
         <a href="http://wpa.qq.com/msgrd?v=3&uin=483966038&site=qq&menu=yes">在线客服</a>
       </span>
       <span class="layui-breadcrumb house-breadcrumb-icon" lay-separator=" ">

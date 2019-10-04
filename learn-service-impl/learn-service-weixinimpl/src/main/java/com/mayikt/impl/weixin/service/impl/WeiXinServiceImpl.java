@@ -18,16 +18,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Service
 public class WeiXinServiceImpl extends BaseApiService implements WeiXinService {
-   /**
-    * 测试方法
-    * @return
-    */
-   @Value("${learn_test_name}")
-   private String name;
-   @Override
-   public BaseResponse<ProductDto> getName() {
-      ProductDto appEntity = new ProductDto();
-      appEntity.setName(name);
-      return setResultSuccess(appEntity);
-   }
+    /**
+     * 测试方法
+     *
+     * @return
+     */
+    @Value("${learn_test_name}")
+    private String name;
+
+    @Override
+    public BaseResponse<ProductDto> getName() {
+        ProductDto appEntity = new ProductDto();
+        appEntity.setName(name);
+        return setResultSuccess(appEntity);
+    }
 }

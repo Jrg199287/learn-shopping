@@ -5,7 +5,7 @@
 <title>蚂蚁商城-注册</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="layui/css/layui.css">
+	<link rel="stylesheet" href="../layui/css/layui.css">
 <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
@@ -104,7 +104,7 @@
 <![endif]-->
 	<script>
 		layui.config({
-			base : 'js/'
+			base : '/js/'
 		}).use('house');
 
 		//获取验证码

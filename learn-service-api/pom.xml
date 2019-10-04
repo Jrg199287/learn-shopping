@@ -16,6 +16,7 @@
 	<modules>
 		<module>learn-service-api-weixin</module>
 		<module>learn-service-api-member</module>
+		<module>learn-service-api-goods</module>
 	</modules>
 
 	<dependencies>
@@ -28,7 +29,7 @@
 		<!--common核心依赖-->
 	<!--	<dependency>
 			<groupId>com.mayikt</groupId>
-			<artifactId>meite-shop-common-core</artifactId>
+			<artifactId>meite-shop-service-core</artifactId>
 			<version>1.0-RELEASE</version>
 		</dependency>-->
 		<!--feign相关-->

@@ -18,12 +18,13 @@
         </dependency>
         <dependency>
             <groupId>com.jiaorg.springcloud-demo</groupId>
-            <artifactId>learn-service-memberimpl</artifactId>
+            <artifactId>learn-service-weixinimpl</artifactId>
             <version>0.0.1-RELEASE</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-service-memberimpl</artifactId>
+            <version>0.0.1-RELEASE</version>
         </dependency>
 
         <!--引入腾讯联合登陆平台sdk-->

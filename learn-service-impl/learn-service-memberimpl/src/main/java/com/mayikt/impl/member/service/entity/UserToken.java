@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author Xxm123
@@ -43,12 +43,12 @@ public class UserToken implements Serializable {
     @Override
     public String toString() {
         return "UserToken{" +
-        ", id=" + id +
-        ", token=" + token +
-        ", loginType=" + loginType +
-        ", deviceInfor=" + deviceInfor +
-        ", isAvailability=" + isAvailability +
-        ", userId=" + userId +
-        "}";
+                ", id=" + id +
+                ", token=" + token +
+                ", loginType=" + loginType +
+                ", deviceInfor=" + deviceInfor +
+                ", isAvailability=" + isAvailability +
+                ", userId=" + userId +
+                "}";
     }
 }

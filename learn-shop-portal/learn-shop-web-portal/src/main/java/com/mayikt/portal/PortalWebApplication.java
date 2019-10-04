@@ -3,9 +3,6 @@ package com.mayikt.portal;
 import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
-import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
@@ -29,7 +26,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @EnableEurekaClient
 @EnableApolloConfig
 @EnableRedisHttpSession
-@EnableFeignClients(basePackages = {"com.mayikt.*"})    //开启FeignClient支持
+@EnableFeignClients(basePackages={"com.mayikt.impl","com.mayikt.portal"})  //开启FeignClient支持
 @ComponentScan(basePackages={"com.unity.core","com.mayikt.*"})//扫描接口
 public class PortalWebApplication {
 	public static void main(String[] args) {
