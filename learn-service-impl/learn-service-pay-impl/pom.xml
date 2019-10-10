@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>learn-service-impl</artifactId>
+        <groupId>com.jiaorg.springcloud-demo</groupId>
+        <version>0.0.1-RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>learn-service-pay-impl</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-pay-dto</artifactId>
+            <version>0.0.1-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-common-core</artifactId>
+            <version>0.0.1-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-service-api-pay</artifactId>
+            <version>0.0.1-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-shop-unionpay-plugin</artifactId>
+            <version>0.0.1-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jiaorg.springcloud-demo</groupId>
+            <artifactId>learn-shop-alipay-plugin</artifactId>
+            <version>0.0.1-RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- 添加springboot对amqp的支持 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>

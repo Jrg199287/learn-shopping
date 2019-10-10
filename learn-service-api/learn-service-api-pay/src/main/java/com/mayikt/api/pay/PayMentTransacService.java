@@ -1,0 +1,18 @@
+package com.mayikt.api.pay;
+
+import com.alibaba.fastjson.JSONObject;
+import com.unity.core.base.BaseResponse;
+import learn.pay.dto.PayCratePayTokenDto;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.GetMapping;
+public interface PayMentTransacService {
+
+	/**
+	 * 创建支付令牌
+	 * 
+	 * @return
+	 */
+	@GetMapping("/cratePayToken")
+	public BaseResponse<JSONObject> cratePayToken(@Validated PayCratePayTokenDto payCratePayTokenDto);
+}

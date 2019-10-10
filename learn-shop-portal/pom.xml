@@ -5,7 +5,8 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>learn-shop-web-portal</module>
-	</modules>
+        <module>learn-shop-alipay-web</module>
+    </modules>
 	<parent>
 		<groupId>com.jiaorg.springcloud-demo</groupId>
 		<artifactId>learn-shopping</artifactId>

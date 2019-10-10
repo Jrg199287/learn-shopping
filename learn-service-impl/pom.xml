@@ -16,6 +16,7 @@
         <module>learn-service-weixinimpl</module>
         <module>learn-service-memberimpl</module>
         <module>learn-service-goods-impl</module>
+        <module>learn-service-pay-impl</module>
     </modules>
 
     <dependencies>

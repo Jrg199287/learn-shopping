@@ -23,8 +23,10 @@ import java.util.Date;
 @Aspect
 @Component
 public class AopLogAspect {
+	private String myBlog;
 	@Autowired
 	private KafkaSender<JSONObject> kafkaSender;
+
 	// 申明一个切点 里面是 execution表达式
 	@Pointcut("execution(* com.mayikt.impl.*.service.impl.*.*(..))")
 	private void serviceAspect() {
@@ -52,8 +54,10 @@ public class AopLogAspect {
 		jsonObject.put("request_args", Arrays.toString(joinPoint.getArgs()));
 		JSONObject requestJsonObject = new JSONObject();
 		requestJsonObject.put("request", jsonObject);
-		kafkaSender.send(requestJsonObject);
-
+		if(request.getServletPath().equals("/goods/search")){
+			myBlog="goods_mylog";
+		}
+		kafkaSender.send(requestJsonObject,myBlog);
 	}
 
 	// 在方法执行完结后打印返回内容
@@ -68,7 +72,7 @@ public class AopLogAspect {
 		jsonObject.put("response_time", df.format(new Date()));
 		jsonObject.put("response_content", JSONObject.toJSONString(o));
 		respJSONObject.put("response", jsonObject);
-		kafkaSender.send(respJSONObject);
+		kafkaSender.send(respJSONObject,myBlog);
 
 	}
 }

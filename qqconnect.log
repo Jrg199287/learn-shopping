@@ -108,3 +108,457 @@
 1073124 DEBUG [2019-09-28 22:05:06]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
 1073131 DEBUG [2019-09-28 22:05:06]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
 1073132 DEBUG [2019-09-28 22:05:06]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+0    DEBUG [2019-10-08 11:39:09]  Couldn't find template in cache for "500.ftl.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+11   DEBUG [2019-10-08 11:39:09]  TemplateLoader.findTemplateSource("500.ftl_zh_CN.ftl"): Not found
+12   DEBUG [2019-10-08 11:39:09]  TemplateLoader.findTemplateSource("500.ftl_zh.ftl"): Not found
+12   DEBUG [2019-10-08 11:39:09]  TemplateLoader.findTemplateSource("500.ftl.ftl"): Not found
+12954 DEBUG [2019-10-08 11:39:22]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12956 DEBUG [2019-10-08 11:39:22]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+12956 DEBUG [2019-10-08 11:39:22]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+12958 DEBUG [2019-10-08 11:39:22]  TemplateLoader.findTemplateSource("index.ftl"): Found
+12960 DEBUG [2019-10-08 11:39:22]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+13120 DEBUG [2019-10-08 11:39:22]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+29799 DEBUG [2019-10-08 11:39:38]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+29800 DEBUG [2019-10-08 11:39:38]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+29800 DEBUG [2019-10-08 11:39:38]  TemplateLoader.findTemplateSource("index.ftl"): Found
+29801 DEBUG [2019-10-08 11:39:38]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+29801 DEBUG [2019-10-08 11:39:38]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+15367233 DEBUG [2019-10-08 15:55:16]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+15367234 DEBUG [2019-10-08 15:55:16]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+15367234 DEBUG [2019-10-08 15:55:16]  TemplateLoader.findTemplateSource("index.ftl"): Found
+15367234 DEBUG [2019-10-08 15:55:16]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+15367234 DEBUG [2019-10-08 15:55:16]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-10-08 16:34:41]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+4    DEBUG [2019-10-08 16:34:41]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+6    DEBUG [2019-10-08 16:34:41]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+7    DEBUG [2019-10-08 16:34:41]  TemplateLoader.findTemplateSource("index.ftl"): Found
+8    DEBUG [2019-10-08 16:34:41]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+124  DEBUG [2019-10-08 16:34:41]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+3275903 DEBUG [2019-10-08 17:29:17]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+3275905 DEBUG [2019-10-08 17:29:17]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+3275906 DEBUG [2019-10-08 17:29:17]  TemplateLoader.findTemplateSource("index.ftl"): Found
+3275906 DEBUG [2019-10-08 17:29:17]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+3275906 DEBUG [2019-10-08 17:29:17]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-10-08 17:37:03]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-08 17:37:03]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-10-08 17:37:03]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+5    DEBUG [2019-10-08 17:37:03]  TemplateLoader.findTemplateSource("index.ftl"): Found
+6    DEBUG [2019-10-08 17:37:03]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+112  DEBUG [2019-10-08 17:37:04]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+149338 DEBUG [2019-10-08 17:39:33]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+149339 DEBUG [2019-10-08 17:39:33]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+149340 DEBUG [2019-10-08 17:39:33]  TemplateLoader.findTemplateSource("index.ftl"): Found
+149340 DEBUG [2019-10-08 17:39:33]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+149340 DEBUG [2019-10-08 17:39:33]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+183775 DEBUG [2019-10-08 17:40:07]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+183777 DEBUG [2019-10-08 17:40:07]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+183777 DEBUG [2019-10-08 17:40:07]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+183778 DEBUG [2019-10-08 17:40:07]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+573488 DEBUG [2019-10-08 17:46:37]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+573489 DEBUG [2019-10-08 17:46:37]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+573489 DEBUG [2019-10-08 17:46:37]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+573489 DEBUG [2019-10-08 17:46:37]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+583364 DEBUG [2019-10-08 17:46:47]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+583365 DEBUG [2019-10-08 17:46:47]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+583366 DEBUG [2019-10-08 17:46:47]  TemplateLoader.findTemplateSource("index.ftl"): Found
+583366 DEBUG [2019-10-08 17:46:47]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+583366 DEBUG [2019-10-08 17:46:47]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-10-09 09:27:25]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-09 09:27:25]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-10-09 09:27:25]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+6    DEBUG [2019-10-09 09:27:25]  TemplateLoader.findTemplateSource("index.ftl"): Found
+7    DEBUG [2019-10-09 09:27:25]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+103  DEBUG [2019-10-09 09:27:25]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+42326 DEBUG [2019-10-09 09:28:08]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+42327 DEBUG [2019-10-09 09:28:08]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+42328 DEBUG [2019-10-09 09:28:08]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+42328 DEBUG [2019-10-09 09:28:08]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+53498 DEBUG [2019-10-09 09:28:19]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+53498 DEBUG [2019-10-09 09:28:19]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+53498 DEBUG [2019-10-09 09:28:19]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+53499 DEBUG [2019-10-09 09:28:19]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+53665 DEBUG [2019-10-09 09:28:19]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+57185 DEBUG [2019-10-09 09:28:22]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+66681 DEBUG [2019-10-09 09:28:32]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+66681 DEBUG [2019-10-09 09:28:32]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+66682 DEBUG [2019-10-09 09:28:32]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+66682 DEBUG [2019-10-09 09:28:32]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+79538 DEBUG [2019-10-09 09:28:45]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+79538 DEBUG [2019-10-09 09:28:45]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+79539 DEBUG [2019-10-09 09:28:45]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+79539 DEBUG [2019-10-09 09:28:45]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+5920441 DEBUG [2019-10-09 11:06:06]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+5920441 DEBUG [2019-10-09 11:06:06]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+5920442 DEBUG [2019-10-09 11:06:06]  TemplateLoader.findTemplateSource("index.ftl"): Found
+5920443 DEBUG [2019-10-09 11:06:06]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+5920443 DEBUG [2019-10-09 11:06:06]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+6133845 DEBUG [2019-10-09 11:09:39]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+6133846 DEBUG [2019-10-09 11:09:39]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+6133847 DEBUG [2019-10-09 11:09:39]  TemplateLoader.findTemplateSource("index.ftl"): Found
+6133847 DEBUG [2019-10-09 11:09:39]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+6133847 DEBUG [2019-10-09 11:09:39]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-10-09 11:12:53]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2    DEBUG [2019-10-09 11:12:53]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-10-09 11:12:53]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+6    DEBUG [2019-10-09 11:12:53]  TemplateLoader.findTemplateSource("index.ftl"): Found
+7    DEBUG [2019-10-09 11:12:53]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+97   DEBUG [2019-10-09 11:12:53]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+28996 DEBUG [2019-10-09 11:13:22]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+28997 DEBUG [2019-10-09 11:13:22]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+28998 DEBUG [2019-10-09 11:13:22]  TemplateLoader.findTemplateSource("index.ftl"): Found
+28998 DEBUG [2019-10-09 11:13:22]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+28998 DEBUG [2019-10-09 11:13:22]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+196342 DEBUG [2019-10-09 11:16:09]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+196343 DEBUG [2019-10-09 11:16:09]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+196344 DEBUG [2019-10-09 11:16:09]  TemplateLoader.findTemplateSource("index.ftl"): Found
+196344 DEBUG [2019-10-09 11:16:09]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+196344 DEBUG [2019-10-09 11:16:09]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-10-09 11:17:38]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+5    DEBUG [2019-10-09 11:17:38]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+7    DEBUG [2019-10-09 11:17:38]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+8    DEBUG [2019-10-09 11:17:38]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+32254 DEBUG [2019-10-09 11:18:10]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+32256 DEBUG [2019-10-09 11:18:10]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+32256 DEBUG [2019-10-09 11:18:10]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+32258 DEBUG [2019-10-09 11:18:10]  TemplateLoader.findTemplateSource("index.ftl"): Found
+32259 DEBUG [2019-10-09 11:18:10]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+32346 DEBUG [2019-10-09 11:18:11]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+89128 DEBUG [2019-10-09 11:19:07]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+89129 DEBUG [2019-10-09 11:19:07]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+89130 DEBUG [2019-10-09 11:19:07]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+89130 DEBUG [2019-10-09 11:19:07]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+97393 DEBUG [2019-10-09 11:19:16]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+97394 DEBUG [2019-10-09 11:19:16]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+97394 DEBUG [2019-10-09 11:19:16]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+97394 DEBUG [2019-10-09 11:19:16]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+107362 DEBUG [2019-10-09 11:19:26]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+107363 DEBUG [2019-10-09 11:19:26]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+107363 DEBUG [2019-10-09 11:19:26]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+107363 DEBUG [2019-10-09 11:19:26]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+108644 DEBUG [2019-10-09 11:19:27]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+117517 DEBUG [2019-10-09 11:19:36]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+117518 DEBUG [2019-10-09 11:19:36]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+117518 DEBUG [2019-10-09 11:19:36]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+117518 DEBUG [2019-10-09 11:19:36]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+153871 DEBUG [2019-10-09 11:20:12]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+153871 DEBUG [2019-10-09 11:20:12]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+153872 DEBUG [2019-10-09 11:20:12]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+153872 DEBUG [2019-10-09 11:20:12]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+0    DEBUG [2019-10-09 11:32:16]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-09 11:32:16]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-10-09 11:32:16]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+5    DEBUG [2019-10-09 11:32:16]  TemplateLoader.findTemplateSource("index.ftl"): Found
+6    DEBUG [2019-10-09 11:32:16]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+97   DEBUG [2019-10-09 11:32:16]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+202991 DEBUG [2019-10-09 11:35:39]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+202993 DEBUG [2019-10-09 11:35:39]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+202995 DEBUG [2019-10-09 11:35:39]  TemplateLoader.findTemplateSource("index.ftl"): Found
+202995 DEBUG [2019-10-09 11:35:39]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+202996 DEBUG [2019-10-09 11:35:39]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+280100 DEBUG [2019-10-09 11:36:56]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+280102 DEBUG [2019-10-09 11:36:56]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+280104 DEBUG [2019-10-09 11:36:56]  TemplateLoader.findTemplateSource("index.ftl"): Found
+280104 DEBUG [2019-10-09 11:36:56]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+280105 DEBUG [2019-10-09 11:36:56]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+696298 DEBUG [2019-10-09 11:43:53]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+696298 DEBUG [2019-10-09 11:43:53]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+696299 DEBUG [2019-10-09 11:43:53]  TemplateLoader.findTemplateSource("index.ftl"): Found
+696299 DEBUG [2019-10-09 11:43:53]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+696300 DEBUG [2019-10-09 11:43:53]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+711766 DEBUG [2019-10-09 11:44:08]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+711767 DEBUG [2019-10-09 11:44:08]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+711767 DEBUG [2019-10-09 11:44:08]  TemplateLoader.findTemplateSource("index.ftl"): Found
+711767 DEBUG [2019-10-09 11:44:08]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+711768 DEBUG [2019-10-09 11:44:08]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-10-09 12:20:31]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2    DEBUG [2019-10-09 12:20:31]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-10-09 12:20:31]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+5    DEBUG [2019-10-09 12:20:31]  TemplateLoader.findTemplateSource("index.ftl"): Found
+6    DEBUG [2019-10-09 12:20:31]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+100  DEBUG [2019-10-09 12:20:31]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+330063 DEBUG [2019-10-09 12:26:01]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+330064 DEBUG [2019-10-09 12:26:01]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+330065 DEBUG [2019-10-09 12:26:01]  TemplateLoader.findTemplateSource("index.ftl"): Found
+330065 DEBUG [2019-10-09 12:26:01]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+330065 DEBUG [2019-10-09 12:26:01]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+338036 DEBUG [2019-10-09 12:26:09]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+338036 DEBUG [2019-10-09 12:26:09]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+338036 DEBUG [2019-10-09 12:26:09]  TemplateLoader.findTemplateSource("index.ftl"): Found
+338036 DEBUG [2019-10-09 12:26:09]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+338037 DEBUG [2019-10-09 12:26:09]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+550267 DEBUG [2019-10-09 12:29:42]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+550268 DEBUG [2019-10-09 12:29:42]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+550269 DEBUG [2019-10-09 12:29:42]  TemplateLoader.findTemplateSource("index.ftl"): Found
+550269 DEBUG [2019-10-09 12:29:42]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+550269 DEBUG [2019-10-09 12:29:42]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+556091 DEBUG [2019-10-09 12:29:47]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+556092 DEBUG [2019-10-09 12:29:47]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+556092 DEBUG [2019-10-09 12:29:47]  TemplateLoader.findTemplateSource("index.ftl"): Found
+556092 DEBUG [2019-10-09 12:29:47]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+556092 DEBUG [2019-10-09 12:29:47]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+674784 DEBUG [2019-10-09 12:31:46]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+674784 DEBUG [2019-10-09 12:31:46]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+674785 DEBUG [2019-10-09 12:31:46]  TemplateLoader.findTemplateSource("index.ftl"): Found
+674786 DEBUG [2019-10-09 12:31:46]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+674786 DEBUG [2019-10-09 12:31:46]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+8102256 DEBUG [2019-10-09 14:35:34]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+8102257 DEBUG [2019-10-09 14:35:34]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+8102258 DEBUG [2019-10-09 14:35:34]  TemplateLoader.findTemplateSource("index.ftl"): Found
+8102258 DEBUG [2019-10-09 14:35:34]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+8102258 DEBUG [2019-10-09 14:35:34]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+8285049 DEBUG [2019-10-09 14:38:36]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+8285051 DEBUG [2019-10-09 14:38:36]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+8285051 DEBUG [2019-10-09 14:38:36]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+8285052 DEBUG [2019-10-09 14:38:36]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+8300496 DEBUG [2019-10-09 14:38:52]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+8300497 DEBUG [2019-10-09 14:38:52]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+8300497 DEBUG [2019-10-09 14:38:52]  TemplateLoader.findTemplateSource("index.ftl"): Found
+8300497 DEBUG [2019-10-09 14:38:52]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+8300498 DEBUG [2019-10-09 14:38:52]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+9510288 DEBUG [2019-10-09 14:59:02]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+9510288 DEBUG [2019-10-09 14:59:02]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+9510289 DEBUG [2019-10-09 14:59:02]  TemplateLoader.findTemplateSource("index.ftl"): Found
+9510289 DEBUG [2019-10-09 14:59:02]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+9510290 DEBUG [2019-10-09 14:59:02]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+9548705 DEBUG [2019-10-09 14:59:40]  Couldn't find template in cache for "500.ftl.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+9548706 DEBUG [2019-10-09 14:59:40]  TemplateLoader.findTemplateSource("500.ftl_zh_CN.ftl"): Not found
+9548707 DEBUG [2019-10-09 14:59:40]  TemplateLoader.findTemplateSource("500.ftl_zh.ftl"): Not found
+9548709 DEBUG [2019-10-09 14:59:40]  TemplateLoader.findTemplateSource("500.ftl.ftl"): Not found
+9548740 DEBUG [2019-10-09 14:59:40]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+9548741 DEBUG [2019-10-09 14:59:40]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+9548742 DEBUG [2019-10-09 14:59:40]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+9548742 DEBUG [2019-10-09 14:59:40]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+0    DEBUG [2019-10-09 15:01:28]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-09 15:01:28]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-10-09 15:01:28]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+5    DEBUG [2019-10-09 15:01:28]  TemplateLoader.findTemplateSource("index.ftl"): Found
+5    DEBUG [2019-10-09 15:01:28]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+91   DEBUG [2019-10-09 15:01:28]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-10-09 15:07:45]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-09 15:07:45]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+5    DEBUG [2019-10-09 15:07:45]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+8    DEBUG [2019-10-09 15:07:45]  TemplateLoader.findTemplateSource("index.ftl"): Found
+9    DEBUG [2019-10-09 15:07:45]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+119  DEBUG [2019-10-09 15:07:45]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1    DEBUG [2019-10-09 15:21:06]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+5    DEBUG [2019-10-09 15:21:06]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+6    DEBUG [2019-10-09 15:21:06]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+7    DEBUG [2019-10-09 15:21:06]  TemplateLoader.findTemplateSource("index.ftl"): Found
+8    DEBUG [2019-10-09 15:21:06]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+114  DEBUG [2019-10-09 15:21:06]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1711 DEBUG [2019-10-09 15:21:07]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+1713 DEBUG [2019-10-09 15:21:07]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+1714 DEBUG [2019-10-09 15:21:07]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+1715 DEBUG [2019-10-09 15:21:07]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+5314 DEBUG [2019-10-09 15:21:11]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+9038 DEBUG [2019-10-09 15:21:15]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+9039 DEBUG [2019-10-09 15:21:15]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+9039 DEBUG [2019-10-09 15:21:15]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+9039 DEBUG [2019-10-09 15:21:15]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+27548 DEBUG [2019-10-09 15:21:33]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+27549 DEBUG [2019-10-09 15:21:33]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+27549 DEBUG [2019-10-09 15:21:33]  TemplateLoader.findTemplateSource("index.ftl"): Found
+27549 DEBUG [2019-10-09 15:21:33]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+27549 DEBUG [2019-10-09 15:21:33]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+29389 DEBUG [2019-10-09 15:21:35]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+29389 DEBUG [2019-10-09 15:21:35]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+29389 DEBUG [2019-10-09 15:21:35]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+29390 DEBUG [2019-10-09 15:21:35]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+67512 DEBUG [2019-10-09 15:22:13]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+67513 DEBUG [2019-10-09 15:22:13]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+67514 DEBUG [2019-10-09 15:22:13]  TemplateLoader.findTemplateSource("index.ftl"): Found
+67514 DEBUG [2019-10-09 15:22:13]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+67514 DEBUG [2019-10-09 15:22:13]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+73460 DEBUG [2019-10-09 15:22:19]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+73461 DEBUG [2019-10-09 15:22:19]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+73461 DEBUG [2019-10-09 15:22:19]  TemplateLoader.findTemplateSource("index.ftl"): Found
+73461 DEBUG [2019-10-09 15:22:19]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+73461 DEBUG [2019-10-09 15:22:19]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+75241 DEBUG [2019-10-09 15:22:21]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+75241 DEBUG [2019-10-09 15:22:21]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+75242 DEBUG [2019-10-09 15:22:21]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+75242 DEBUG [2019-10-09 15:22:21]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+0    DEBUG [2019-10-09 15:23:08]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+4    DEBUG [2019-10-09 15:23:08]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+5    DEBUG [2019-10-09 15:23:08]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+7    DEBUG [2019-10-09 15:23:08]  TemplateLoader.findTemplateSource("index.ftl"): Found
+8    DEBUG [2019-10-09 15:23:08]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+134  DEBUG [2019-10-09 15:23:09]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+478010 DEBUG [2019-10-09 15:31:06]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+478013 DEBUG [2019-10-09 15:31:06]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+478014 DEBUG [2019-10-09 15:31:06]  TemplateLoader.findTemplateSource("index.ftl"): Found
+478014 DEBUG [2019-10-09 15:31:06]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+478015 DEBUG [2019-10-09 15:31:06]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+486067 DEBUG [2019-10-09 15:31:15]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+486068 DEBUG [2019-10-09 15:31:15]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+486068 DEBUG [2019-10-09 15:31:15]  TemplateLoader.findTemplateSource("index.ftl"): Found
+486068 DEBUG [2019-10-09 15:31:15]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+486069 DEBUG [2019-10-09 15:31:15]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+487668 DEBUG [2019-10-09 15:31:16]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+487669 DEBUG [2019-10-09 15:31:16]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+487669 DEBUG [2019-10-09 15:31:16]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+487670 DEBUG [2019-10-09 15:31:16]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+0    DEBUG [2019-10-09 15:31:57]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-09 15:31:57]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+5    DEBUG [2019-10-09 15:31:57]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+6    DEBUG [2019-10-09 15:31:57]  TemplateLoader.findTemplateSource("index.ftl"): Found
+7    DEBUG [2019-10-09 15:31:57]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+121  DEBUG [2019-10-09 15:31:57]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1668 DEBUG [2019-10-09 15:31:58]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+1670 DEBUG [2019-10-09 15:31:58]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+1671 DEBUG [2019-10-09 15:31:58]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+1672 DEBUG [2019-10-09 15:31:58]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+20337 DEBUG [2019-10-09 15:32:17]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+20337 DEBUG [2019-10-09 15:32:17]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+20338 DEBUG [2019-10-09 15:32:17]  TemplateLoader.findTemplateSource("index.ftl"): Found
+20338 DEBUG [2019-10-09 15:32:17]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+20338 DEBUG [2019-10-09 15:32:17]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+23262 DEBUG [2019-10-09 15:32:20]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+23263 DEBUG [2019-10-09 15:32:20]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+23263 DEBUG [2019-10-09 15:32:20]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+23264 DEBUG [2019-10-09 15:32:20]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+0    DEBUG [2019-10-10 08:45:33]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-10 08:45:33]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+5    DEBUG [2019-10-10 08:45:33]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+6    DEBUG [2019-10-10 08:45:33]  TemplateLoader.findTemplateSource("index.ftl"): Found
+6    DEBUG [2019-10-10 08:45:33]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+101  DEBUG [2019-10-10 08:45:33]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2946 DEBUG [2019-10-10 08:45:36]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2948 DEBUG [2019-10-10 08:45:36]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2949 DEBUG [2019-10-10 08:45:36]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2949 DEBUG [2019-10-10 08:45:36]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+8106 DEBUG [2019-10-10 08:45:41]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+8107 DEBUG [2019-10-10 08:45:41]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+8107 DEBUG [2019-10-10 08:45:41]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+8107 DEBUG [2019-10-10 08:45:41]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+0    DEBUG [2019-10-10 09:04:08]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+4    DEBUG [2019-10-10 09:04:08]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+5    DEBUG [2019-10-10 09:04:08]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+6    DEBUG [2019-10-10 09:04:08]  TemplateLoader.findTemplateSource("index.ftl"): Found
+7    DEBUG [2019-10-10 09:04:08]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+116  DEBUG [2019-10-10 09:04:08]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2274 DEBUG [2019-10-10 09:04:10]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2276 DEBUG [2019-10-10 09:04:10]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2276 DEBUG [2019-10-10 09:04:10]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+2276 DEBUG [2019-10-10 09:04:10]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+9781 DEBUG [2019-10-10 09:04:18]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+9782 DEBUG [2019-10-10 09:04:18]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+9782 DEBUG [2019-10-10 09:04:18]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+9783 DEBUG [2019-10-10 09:04:18]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+72099 DEBUG [2019-10-10 09:05:20]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+72099 DEBUG [2019-10-10 09:05:20]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+72100 DEBUG [2019-10-10 09:05:20]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+72100 DEBUG [2019-10-10 09:05:20]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+637492 DEBUG [2019-10-10 09:14:45]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+637492 DEBUG [2019-10-10 09:14:45]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+637493 DEBUG [2019-10-10 09:14:45]  TemplateLoader.findTemplateSource("index.ftl"): Found
+637493 DEBUG [2019-10-10 09:14:45]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+637493 DEBUG [2019-10-10 09:14:45]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+639957 DEBUG [2019-10-10 09:14:48]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+639958 DEBUG [2019-10-10 09:14:48]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+639958 DEBUG [2019-10-10 09:14:48]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+639958 DEBUG [2019-10-10 09:14:48]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+0    DEBUG [2019-10-10 09:17:59]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-10 09:17:59]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+5    DEBUG [2019-10-10 09:17:59]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+5    DEBUG [2019-10-10 09:17:59]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+35395 DEBUG [2019-10-10 09:18:34]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+35396 DEBUG [2019-10-10 09:18:34]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+35397 DEBUG [2019-10-10 09:18:34]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+35398 DEBUG [2019-10-10 09:18:34]  TemplateLoader.findTemplateSource("index.ftl"): Found
+35398 DEBUG [2019-10-10 09:18:34]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+35530 DEBUG [2019-10-10 09:18:35]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+41513 DEBUG [2019-10-10 09:18:41]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+41513 DEBUG [2019-10-10 09:18:41]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+41513 DEBUG [2019-10-10 09:18:41]  TemplateLoader.findTemplateSource("index.ftl"): Found
+41513 DEBUG [2019-10-10 09:18:41]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+41514 DEBUG [2019-10-10 09:18:41]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+44648 DEBUG [2019-10-10 09:18:44]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+44649 DEBUG [2019-10-10 09:18:44]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+44650 DEBUG [2019-10-10 09:18:44]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+44650 DEBUG [2019-10-10 09:18:44]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+48100 DEBUG [2019-10-10 09:18:47]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+51199 DEBUG [2019-10-10 09:18:50]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+51200 DEBUG [2019-10-10 09:18:50]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+51200 DEBUG [2019-10-10 09:18:50]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+51200 DEBUG [2019-10-10 09:18:50]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+0    DEBUG [2019-10-10 09:38:23]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-10 09:38:23]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-10-10 09:38:23]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+5    DEBUG [2019-10-10 09:38:23]  TemplateLoader.findTemplateSource("index.ftl"): Found
+6    DEBUG [2019-10-10 09:38:23]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+125  DEBUG [2019-10-10 09:38:23]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+10668 DEBUG [2019-10-10 09:38:34]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+10669 DEBUG [2019-10-10 09:38:34]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+10669 DEBUG [2019-10-10 09:38:34]  TemplateLoader.findTemplateSource("index.ftl"): Found
+10670 DEBUG [2019-10-10 09:38:34]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+10670 DEBUG [2019-10-10 09:38:34]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+12969 DEBUG [2019-10-10 09:38:36]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+12969 DEBUG [2019-10-10 09:38:36]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+12970 DEBUG [2019-10-10 09:38:36]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+12971 DEBUG [2019-10-10 09:38:36]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+828378 DEBUG [2019-10-10 09:52:11]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+828379 DEBUG [2019-10-10 09:52:11]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+828379 DEBUG [2019-10-10 09:52:11]  TemplateLoader.findTemplateSource("index.ftl"): Found
+828379 DEBUG [2019-10-10 09:52:11]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+828380 DEBUG [2019-10-10 09:52:11]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+837452 DEBUG [2019-10-10 09:52:20]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+837453 DEBUG [2019-10-10 09:52:20]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+837453 DEBUG [2019-10-10 09:52:20]  TemplateLoader.findTemplateSource("index.ftl"): Found
+837453 DEBUG [2019-10-10 09:52:20]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+837453 DEBUG [2019-10-10 09:52:20]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1194930 DEBUG [2019-10-10 09:58:18]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+1194931 DEBUG [2019-10-10 09:58:18]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+1194931 DEBUG [2019-10-10 09:58:18]  TemplateLoader.findTemplateSource("index.ftl"): Found
+1194932 DEBUG [2019-10-10 09:58:18]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+1194932 DEBUG [2019-10-10 09:58:18]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1203941 DEBUG [2019-10-10 09:58:27]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+1203942 DEBUG [2019-10-10 09:58:27]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+1203942 DEBUG [2019-10-10 09:58:27]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+1203942 DEBUG [2019-10-10 09:58:27]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+1216384 DEBUG [2019-10-10 09:58:39]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+1216385 DEBUG [2019-10-10 09:58:39]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+1216385 DEBUG [2019-10-10 09:58:39]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+1216385 DEBUG [2019-10-10 09:58:39]  "error.ftl"("zh_CN", UTF-8, parsed) no source found.
+1219509 DEBUG [2019-10-10 09:58:42]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-10-10 09:59:39]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-10-10 09:59:39]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-10-10 09:59:39]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+5    DEBUG [2019-10-10 09:59:39]  TemplateLoader.findTemplateSource("index.ftl"): Found
+6    DEBUG [2019-10-10 09:59:39]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+138  DEBUG [2019-10-10 09:59:39]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+7865 DEBUG [2019-10-10 09:59:47]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+7867 DEBUG [2019-10-10 09:59:47]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+7867 DEBUG [2019-10-10 09:59:47]  TemplateLoader.findTemplateSource("index.ftl"): Found
+7867 DEBUG [2019-10-10 09:59:47]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+7868 DEBUG [2019-10-10 09:59:47]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+262335 DEBUG [2019-10-10 10:04:01]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+262335 DEBUG [2019-10-10 10:04:01]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+262336 DEBUG [2019-10-10 10:04:01]  TemplateLoader.findTemplateSource("index.ftl"): Found
+262337 DEBUG [2019-10-10 10:04:01]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+262337 DEBUG [2019-10-10 10:04:01]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+275235 DEBUG [2019-10-10 10:04:14]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+275235 DEBUG [2019-10-10 10:04:14]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+275236 DEBUG [2019-10-10 10:04:14]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+275236 DEBUG [2019-10-10 10:04:14]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+0    DEBUG [2019-10-10 10:09:12]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+4    DEBUG [2019-10-10 10:09:12]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+7    DEBUG [2019-10-10 10:09:12]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+10   DEBUG [2019-10-10 10:09:12]  TemplateLoader.findTemplateSource("index.ftl"): Found
+10   DEBUG [2019-10-10 10:09:12]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\Administrator\\Desktop\\最新springcloud视频\\learn-shopping\\learn-shop-portal\\learn-shop-alipay-web\\target\\classes\\templates\\index.ftl"
+128  DEBUG [2019-10-10 10:09:12]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+10480 DEBUG [2019-10-10 10:09:23]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+10482 DEBUG [2019-10-10 10:09:23]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+10482 DEBUG [2019-10-10 10:09:23]  TemplateLoader.findTemplateSource("index.ftl"): Found
+10482 DEBUG [2019-10-10 10:09:23]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+10483 DEBUG [2019-10-10 10:09:23]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+314904 DEBUG [2019-10-10 10:14:27]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+314905 DEBUG [2019-10-10 10:14:27]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+314906 DEBUG [2019-10-10 10:14:27]  TemplateLoader.findTemplateSource("index.ftl"): Found
+314906 DEBUG [2019-10-10 10:14:27]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+314906 DEBUG [2019-10-10 10:14:27]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+323073 DEBUG [2019-10-10 10:14:35]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+323073 DEBUG [2019-10-10 10:14:35]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+323073 DEBUG [2019-10-10 10:14:35]  TemplateLoader.findTemplateSource("index.ftl"): Found
+323073 DEBUG [2019-10-10 10:14:35]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since C:\Users\Administrator\Desktop\最新springcloud视频\learn-shopping\learn-shop-portal\learn-shop-alipay-web\target\classes\templates\index.ftl hasn't changed.
+323074 DEBUG [2019-10-10 10:14:35]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.

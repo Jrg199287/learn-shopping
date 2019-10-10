@@ -1,7 +1,7 @@
 /*
 package com.unity.core.advice;
 
-import com.google.service.collect.ImmutableMap;
+import com.google.servi.collect.ImmutableMap;
 import com.unity.core.base.BaseResponse;
 import com.unity.core.exception.BizException;
 import lombok.extern.slf4j.Slf4j;
@@ -57,7 +57,7 @@ public class GlobalExceptionHandler {
 	//		log.error("",e);
 	//		// 对于系统异常直接抛出404错误页面
 	//		ModelAndView modelAndView = new ModelAndView();
-	//		modelAndView.setViewName("service/404");
+	//		modelAndView.setViewName("servi/404");
 	//		return modelAndView;
 	//	}
 	//}

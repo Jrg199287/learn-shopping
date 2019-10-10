@@ -32,7 +32,7 @@ public class ElkGlobalExceptionHandler {
 		logJson.put("request_time", df.format(new Date()));
 		logJson.put("error_info", e);
 		errorJson.put("error", logJson);
-		kafkaSender.send(errorJson);
+		kafkaSender.send(errorJson,"goods_mylog");
 		// 2. 返回错误信息
 		JSONObject result = new JSONObject();
 		result.put("code", 500);

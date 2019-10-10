@@ -19,7 +19,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableApolloConfig
 @EnableFeignClients(basePackages = "com.mayikt.impl.member")    //开启FeignClient支持
 @ComponentScan(basePackages = {"com.unity.core", "com.mayikt.impl"})//扫描接口
-//@MapperScan(basePackages = "com.mayikt.impl.member.service.dao")
+//@MapperScan(basePackages = "com.mayikt.impl.member.servi.dao")
 public class MemberApplication {
     public static void main(String[] args) {
         SpringApplication.run(MemberApplication.class, args);

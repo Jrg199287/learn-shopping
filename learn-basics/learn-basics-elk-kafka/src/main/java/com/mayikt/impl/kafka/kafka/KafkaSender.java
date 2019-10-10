@@ -20,18 +20,19 @@ public class KafkaSender<T> {
 	@Autowired
 	private KafkaTemplate<String, Object> kafkaTemplate;
 
+
 	/**
 	 * kafka 发送消息
 	 *
 	 * @param obj
 	 *            消息对象
 	 */
-	public void send(T obj) {
+	public void send(T obj,String myBlog) {
 		String jsonObj = JSON.toJSONString(obj);
 		log.info("------------ message = {}", jsonObj);
 
 		// 发送消息
-		ListenableFuture<SendResult<String, Object>> future = kafkaTemplate.send("goods_mylog", jsonObj);
+		ListenableFuture<SendResult<String, Object>> future = kafkaTemplate.send(myBlog, jsonObj);
 		future.addCallback(new ListenableFutureCallback<SendResult<String, Object>>() {
 			@Override
 			public void onFailure(Throwable throwable) {

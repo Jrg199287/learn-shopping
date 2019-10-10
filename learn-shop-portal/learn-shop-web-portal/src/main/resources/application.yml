@@ -16,7 +16,7 @@
 ####服务注册到eureka地址
 #eureka:
 #  client:
-#    service-url:
+#    servi-url:
 #      defaultZone: http://192.168.192.103:8080/eureka
 #server:
 #  port: 8600

@@ -24,13 +24,13 @@
     <dependencies>
         <!--<dependency>
             <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-service-api-auth</artifactId>
+            <artifactId>meite-shop-servi-api-auth</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
 
         <dependency>
             <groupId>com.mayikt</groupId>
-            <artifactId>meite-shop-service-core</artifactId>
+            <artifactId>meite-shop-servi-core</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>-->
 
