@@ -1,5 +1,7 @@
 package com.mayikt.zuul.gateway.builder;
 import com.netflix.zuul.context.RequestContext;
+
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
@@ -13,18 +15,18 @@ public interface GetWayBuild {
     /**
      * 白名单验证
      * @param req
-     * @param ipAdress
+     * @param ipAddres
      * @param response
      * @return
      */
-    Boolean blackBlog(RequestContext req, String ipAdress, HttpServletResponse response);
+    Boolean blackBlog(RequestContext req, String ipAddres, HttpServletResponse response);
 
     /**
      * 参数验证
      * @param req
-     * @param ipAdress
-     * @param respons
+     * @param ipAddres
+     * @param request
      * @return
      */
-    Boolean toVerifyMap(RequestContext req, String ipAdress, HttpServletResponse respons);
+    Boolean toVerifyMap(RequestContext req, String ipAddres, HttpServletRequest request);
 }

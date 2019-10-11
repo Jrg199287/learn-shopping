@@ -10,7 +10,7 @@ import java.util.UUID;
 
 
 @Component
-public class GenerateToken {
+public  class GenerateToken {
 	@Autowired
 	private RedisUtil redisUtil;
 

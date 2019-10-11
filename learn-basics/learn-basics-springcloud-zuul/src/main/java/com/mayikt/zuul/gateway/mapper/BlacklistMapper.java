@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface BlacklistMapper {
 
-	@Select(" select ID AS ID ,ip_addres AS ipAddres,restriction_type  as restrictionType, availability  as availability from meite_black_list where  ip_addres =#{ipAddres} and  restriction_type='1' ")
+	@Select(" select ID AS ID ,ADRESS AS ipAddres,restriction_type  as restrictionType, availability as availability from meite_blacklist where  ADRESS =#{ipAddres} and  restriction_type='1' ")
     MeiteBlackList findBlacklist(String ipAddres);
 
 }

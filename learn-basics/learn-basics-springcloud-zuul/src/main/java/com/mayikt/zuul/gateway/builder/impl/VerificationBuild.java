@@ -4,10 +4,14 @@ import com.mayikt.zuul.gateway.builder.GetWayBuild;
 import com.mayikt.zuul.gateway.mapper.BlacklistMapper;
 import com.mayikt.zuul.gateway.mapper.entity.MeiteBlackList;
 import com.netflix.zuul.context.RequestContext;
+import com.unity.core.core.utils.sign.SignUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Map;
 
 /**
  * @ClassName : VerificationBuild  //类名
@@ -17,6 +21,7 @@ import javax.servlet.http.HttpServletResponse;
  * 《身无彩凤双飞翼，心有灵犀一点通》
  */
 @Slf4j
+@Component
 public class VerificationBuild implements GetWayBuild {
 
     @Autowired BlacklistMapper blacklistMapper;
@@ -46,12 +51,19 @@ public class VerificationBuild implements GetWayBuild {
     /**
      * 验证参数的实现方式
      * @param req
-     * @param ipAdress
-     * @param respons
+     * @param ipAddres
+     * @param request
      * @return
      */
-    public Boolean toVerifyMap(RequestContext req, String ipAdress, HttpServletResponse respons) {
-        return null;
+    public Boolean toVerifyMap(RequestContext req, String ipAddres, HttpServletRequest request) {
+        // 4.外网传递参数验证
+        Map<String, String> verifyMap = SignUtil.toVerifyMap(request.getParameterMap(), false);
+        if (!SignUtil.verify(verifyMap)) {
+            resultError(req, "ip:" + ipAddres + ",Sign fail");
+            return false;
+        }
+        return true;
+
     }
 
     /**

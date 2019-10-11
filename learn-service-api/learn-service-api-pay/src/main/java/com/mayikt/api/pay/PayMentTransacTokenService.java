@@ -6,6 +6,7 @@ import learn.pay.dto.PayCratePayTokenDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 /**
  * 
@@ -26,7 +27,7 @@ public interface PayMentTransacTokenService {
 	 * 
 	 * @return
 	 */
-	@GetMapping("/cratePayToken")
+	@PostMapping("/cratePayToken")
 	public BaseResponse<JSONObject> cratePayToken(@Validated PayCratePayTokenDto payCratePayTokenDto);
 
 }

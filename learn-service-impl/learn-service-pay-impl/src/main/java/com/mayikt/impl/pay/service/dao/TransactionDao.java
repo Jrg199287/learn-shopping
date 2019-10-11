@@ -19,7 +19,7 @@ import java.util.List;
 @Repository
 public interface TransactionDao extends BaseMapper<TransactionEntity> {
     @Options(useGeneratedKeys = true, keyProperty = "id")
-    @Insert("INSERT INTO `payment_transaction` VALUES (null, #{payAmount}, '0', #{userId}, #{orderId}, null, null, now(), null, now(),null,#{paymentId});")
+    @Insert("INSERT INTO `payment_transaction` VALUES (null, #{payAmount}, '0', #{userId}, #{orderId}, null, null, now(), null, now(),null,#{paymentId},null);")
     public int insertPaymentTransaction(TransactionEntity transactionEntity);
 
     @Select("SELECT ID AS ID ,pay_Amount AS payAmount,payment_Status AS paymentStatus,user_ID AS userId, order_Id AS orderId , created_Time as createdTime ,partypay_Id as partyPayId , payment_Id as paymentId FROM payment_transaction WHERE ID=#{id};")

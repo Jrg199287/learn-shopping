@@ -1,6 +1,7 @@
 package com.mayikt.impl.pay.service;
 
 
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import com.spring4all.swagger.EnableSwagger2Doc;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +13,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 //@EnableSwagger2Doc
 @EnableEurekaClient
-//@EnableApolloConfig
+@EnableApolloConfig
 @MapperScan(basePackages = {"com.mayikt.impl.pay"})
 @EnableFeignClients(basePackages = "com.mayikt.api")  //开启FeignClient支持
 @ComponentScan(basePackages={"com.unity.core","com.mayikt","com.mayikt.impl.pay"})//扫描接口

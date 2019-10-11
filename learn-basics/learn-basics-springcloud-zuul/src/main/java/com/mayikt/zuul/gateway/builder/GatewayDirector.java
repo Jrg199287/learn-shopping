@@ -8,12 +8,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 建造者设计模式
+ *
  */
 @Component
 public class GatewayDirector {
 	@Resource(name = "verificationBuild")
 	private GetWayBuild gatewayBuild;
+
 	public void direcot(RequestContext ctx, String ipAddres, HttpServletResponse response, HttpServletRequest request) {
 		/**
 		 * 黑名单拦截
@@ -25,7 +26,7 @@ public class GatewayDirector {
 		/**
 		 * 参数验证
 		 */
-		Boolean verifyMap = gatewayBuild.toVerifyMap(ctx, ipAddres, response);
+		Boolean verifyMap = gatewayBuild.toVerifyMap(ctx, ipAddres, request);
 		if (!verifyMap) {
 			return;
 		}

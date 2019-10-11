@@ -8,6 +8,7 @@ import com.ctrip.framework.apollo.spring.annotation.ApolloConfig;
 import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import com.spring4all.swagger.EnableSwagger2Doc;
 //import org.mybatis.spring.annotation.MapperScan;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -33,7 +34,7 @@ import java.util.List;
 @EnableSwagger2Doc
 @EnableApolloConfig
 //@EnableFeignClients(basePackages = "com.mayikt.api")  //开启FeignClient支持
-//@MapperScan(value = "com.mayikt.zuul.gateway.mapper")
+@MapperScan(value = "com.mayikt.zuul.gateway.mapper")
 @ComponentScan(basePackages = "com.mayikt.zuul")
 @EnableAsync
 public class GateWayApplication {
@@ -43,7 +44,6 @@ public class GateWayApplication {
 	 */
 	@ApolloConfig(value = "zull")
 	private Config appConfig;
-
 	public static void main(String[] args) {
 		SpringApplication.run(GateWayApplication.class, args);
 	}

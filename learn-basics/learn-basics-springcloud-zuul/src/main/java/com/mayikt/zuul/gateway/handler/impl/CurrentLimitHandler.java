@@ -1,3 +1,4 @@
+/*
 package com.mayikt.zuul.gateway.handler.impl;
 
 import com.google.common.util.concurrent.RateLimiter;
@@ -9,10 +10,12 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.concurrent.TimeUnit;
 
+*/
 /**
  * 服务限流
  * 
@@ -24,13 +27,14 @@ import java.util.concurrent.TimeUnit;
  * @version V1.0
  * @Copyright 该项目“基于SpringCloud2.x构建微服务电商项目”由每特教育|蚂蚁课堂版权所有，未经过允许的情况下，
  *            私自分享视频和源码属于违法行为。
- */
+ *//*
+
 @Component
 @Slf4j
 public class CurrentLimitHandler extends BaseHandler implements GatewayHandler {
 	private RateLimiter rateLimiter = RateLimiter.create(1);
 
-	@Autowired
+	@Resource(name="generateToken")
 	private GenerateToken generateToken;
 
 	@Override
@@ -55,3 +59,4 @@ public class CurrentLimitHandler extends BaseHandler implements GatewayHandler {
 	}
 
 }
+*/

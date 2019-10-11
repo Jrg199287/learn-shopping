@@ -1,6 +1,6 @@
 package com.mayikt.zuul.gateway.filter;
 
-import com.mayikt.zuul.gateway.handler.GatewayHandler;
+import com.mayikt.zuul.gateway.builder.GatewayDirector;
 import com.mayikt.zuul.gateway.handler.ResponsibilityClient;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
@@ -23,7 +23,8 @@ public class GatewayFilter extends ZuulFilter {
 
 	@Autowired
 	private ResponsibilityClient responsibilityClient;
-
+	@Autowired
+	private GatewayDirector gatewayDirector;
 	/**
 	 * 请求之前拦截处理业务逻辑 建议将限制黑名单存放到redis或者携程的阿波罗
 	 */
@@ -33,8 +34,10 @@ public class GatewayFilter extends ZuulFilter {
 		// 1.获取请求对象
 		HttpServletRequest request = ctx.getRequest();
 		HttpServletResponse response = ctx.getResponse();
-		GatewayHandler handler = responsibilityClient.getHandler();
-		handler.service(ctx, request, response);
+		String adress = getIpAddr(request);
+		gatewayDirector.direcot(ctx,adress,response,request);
+		//GatewayHandler handler = responsibilityClient.getHandler();
+		//handler.service(ctx, request, response);
 		return null;
 	}
 	// public/api/api-pay/cratePayToken?payAmount=300222&orderId=2019010203501502&userId=644064

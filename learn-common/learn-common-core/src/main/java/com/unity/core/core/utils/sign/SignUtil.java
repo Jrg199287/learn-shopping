@@ -1,6 +1,5 @@
-/*
-package com.unity.core.core.utils.sign;
 
+package com.unity.core.core.utils.sign;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +8,6 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.*;
 
-*/
 /**
  * 参数验证签名
  * 
@@ -21,40 +19,36 @@ import java.util.*;
  * @version V1.0
  * @Copyright 该项目“基于SpringCloud2.x构建微服务电商项目”由每特教育|蚂蚁课堂版权所有，未经过允许的情况下，
  *            私自分享视频和源码属于违法行为。
- *//*
+ */
 
 public class SignUtil {
 
 	private static Logger logger = LoggerFactory.getLogger(SignUtil.class);
 
-	*/
-/** 加密密钥 *//*
+/** 加密密钥 */
 
 	private final static String APP_KEY = "mykey123456";
 
 	public final static String SECRET_KEY = "mysecret123456";
 
-	*/
-/** 字符编码 *//*
+/** 字符编码 */
 
 	private final static String INPUT_CHARSET = "UTF-8";
 
-	*/
-/** 超时时间 *//*
+/** 超时时间 */
 
 	private final static int TIME_OUT = 30 * 60 * 1000;
 
-	*/
 /**
 	 * 请求参数Map转换验证Map
-	 * 
+	 *
 	 * @param requestParams
 	 *            请求参数Map
 	 * @param charset
 	 *            是否要转utf8编码
 	 * @return
 	 * @throws UnsupportedEncodingException
-	 *//*
+	 */
 
 	public static Map<String, String> toVerifyMap(Map<String, String[]> requestParams, boolean charset) {
 		Map<String, String> params = new HashMap<>();
@@ -73,14 +67,13 @@ public class SignUtil {
 		return params;
 	}
 
-	*/
 /**
 	 * 除去数组中的空值和签名参数
-	 * 
+	 *
 	 * @param sArray
 	 *            签名参数组
 	 * @return 去掉空值与签名参数后的新签名参数组
-	 *//*
+	 */
 
 	public static Map<String, String> paraFilter(Map<String, String> sArray) {
 		Map<String, String> result = new HashMap<>();
@@ -97,29 +90,27 @@ public class SignUtil {
 		return result;
 	}
 
-	*/
 /**
 	 * 把数组所有元素排序，并按照“参数=参数值”的模式用“&”字符拼接成字符串
-	 * 
+	 *
 	 * @param params
 	 *            需要排序并参与字符拼接的参数组
 	 * @return 拼接后字符串
-	 *//*
+	 */
 
 	public static String createLinkString(Map<String, String> params) {
 		return createLinkString(params, false);
 	}
 
-	*/
 /**
 	 * 把数组所有元素排序，并按照“参数=参数值”的模式用“&”字符拼接成字符串
-	 * 
+	 *
 	 * @param params
 	 *            需要排序并参与字符拼接的参数组
 	 * @param encode
 	 *            是否需要UrlEncode
 	 * @return 拼接后字符串
-	 *//*
+	 */
 
 	public static String createLinkString(Map<String, String> params, boolean encode) {
 		List<String> keys = new ArrayList<>(params.keySet());
@@ -139,15 +130,14 @@ public class SignUtil {
 		return prestr;
 	}
 
-	*/
 /**
 	 * 编码转换
-	 * 
+	 *
 	 * @param content
 	 * @param charset
 	 * @return
 	 * @throws UnsupportedEncodingException
-	 *//*
+	 */
 
 	private static byte[] getContentBytes(String content, String charset) {
 		if (charset == null || "".equals(charset)) {
@@ -160,14 +150,13 @@ public class SignUtil {
 		}
 	}
 
-	*/
 /**
 	 * 编码转换
-	 * 
+	 *
 	 * @param content
 	 * @param charset
 	 * @return
-	 *//*
+	 */
 
 	private static String getContentString(String content, String charset) {
 		if (charset == null || "".equals(charset)) {
@@ -180,14 +169,13 @@ public class SignUtil {
 		}
 	}
 
-	*/
 /**
 	 * URL转码
-	 * 
+	 *
 	 * @param content
 	 * @param charset
 	 * @return
-	 *//*
+	 */
 
 	private static String urlEncode(String content, String charset) {
 		try {
@@ -196,30 +184,27 @@ public class SignUtil {
 			throw new RuntimeException("指定的编码集不对,您目前指定的编码集是:" + charset);
 		}
 	}
-
 	// TODO 签名
-	*/
 /**
 	 * 生成要请求的签名参数数组
-	 * 
+	 *
 	 * @param sParaTemp
 	 *            需要签名的参数Map
 	 * @return 要请求的签名参数数组
-	 *//*
+	 */
 
 	public static Map<String, String> signMap(Map<String, String[]> sParaTemp) {
 		// 请求参数Map转换验证Map，并生成要请求的签名参数数组
 		return sign(toVerifyMap(sParaTemp, false));
 	}
 
-	*/
 /**
 	 * 生成要请求的签名参数数组
-	 * 
+	 *
 	 * @param sParaTemp
 	 *            需要签名的参数
 	 * @return 要请求的签名参数数组
-	 *//*
+	 */
 
 	public static Map<String, String> sign(Map<String, String> sParaTemp) {
 		// 时间戳加入签名参数组中
@@ -239,14 +224,13 @@ public class SignUtil {
 		return sign(sParaTemp).get("sign");
 	}
 
-	*/
 /**
 	 * 生成要请求的签名参数字符串“参数=参数值”&链接
-	 * 
+	 *
 	 * @param sParaTemp
 	 *            需要签名的参数Map
 	 * @return 请求的签名参数字符串
-	 *//*
+	 */
 
 	public static String signStringMap(Map<String, String[]> sParaTemp) {
 		// 生成要请求的签名参数数组
@@ -255,14 +239,13 @@ public class SignUtil {
 		return createLinkString(sign, true);
 	}
 
-	*/
 /**
 	 * 生成要请求的签名参数字符串“参数=参数值”&链接
-	 * 
+	 *
 	 * @param sParaTemp
 	 *            需要签名的参数
 	 * @return
-	 *//*
+	 */
 
 	public static String signString(Map<String, String> sParaTemp) {
 		// 生成要请求的签名参数数组
@@ -272,28 +255,27 @@ public class SignUtil {
 	}
 
 	// TODO 验证签名
-	*/
+
 /**
 	 * 根据反馈回来的信息，生成签名结果
-	 * 
+	 *
 	 * @param paramsMap
 	 *            通知返回来的请求参数Map
 	 * @return 验证结果
-	 *//*
+	 */
 
 	public static boolean verifyMap(Map<String, String[]> paramsMap) {
 		// 请求参数Map转换验证Map，并根据反馈回来的信息，生成签名结果
 		return verify(toVerifyMap(paramsMap, false));
 	}
 
-	*/
 /**
 	 * 根据反馈回来的信息，生成签名结果
-	 * 
+	 *
 	 * @param params
 	 *            通知返回来的参数数组
 	 * @return 验证结果
-	 *//*
+	 */
 
 	public static boolean verify(Map<String, String> params) {
 		String sign = "";
@@ -328,4 +310,4 @@ public class SignUtil {
 		}
 	}
 
-}*/
+}
