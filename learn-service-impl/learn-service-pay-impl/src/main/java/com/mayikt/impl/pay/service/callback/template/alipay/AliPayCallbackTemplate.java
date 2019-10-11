@@ -8,17 +8,11 @@ import com.mayikt.impl.pay.service.constant.PayConstant;
 import com.mayikt.impl.pay.service.dao.TransactionDao;
 import com.mayikt.impl.pay.service.entity.TransactionEntity;
 import com.mayikt.unionpay.acp.demo.UnionPayBase;
-import com.mayikt.unionpay.acp.sdk.AcpService;
 import com.mayikt.unionpay.acp.sdk.LogUtil;
 import com.mayikt.unionpay.acp.sdk.SDKConstants;
-import com.sun.xml.internal.bind.v2.TODO;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

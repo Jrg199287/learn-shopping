@@ -35,7 +35,6 @@ public class IntegralProducer implements RabbitTemplate.ConfirmCallback {
 		this.rabbitTemplate.setConfirmCallback(this);
 		CorrelationData correlationData = new CorrelationData(jsonString);
 		rabbitTemplate.convertAndSend("integral_exchange_name", "integralRoutingKey", message, correlationData);
-
 	}
 
 	// 生产消息确认机制 生产者往服务器端发送消息的时候，采用应答机制

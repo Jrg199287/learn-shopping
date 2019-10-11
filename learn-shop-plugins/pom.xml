@@ -2,19 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
-    <modules>
-        <module>learn-shop-unionpay-plugin</module>
-        <module>learn-shop-alipay-plugin</module>
-    </modules>
     <parent>
-        <groupId>com.jiaorg.springcloud-demo</groupId>
-        <artifactId>learn-shopping</artifactId>
-        <version>0.0.1-RELEASE</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.9.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>learn-shop-plugins</artifactId>
-    <version>0.0.1-RELEASE</version>
-    <name>learn-shop-plugins</name>
+    <groupId>com.jiaorg.springcloud-demo</groupId>
+    <artifactId>learn-shop-job</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>learn-shop-job</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,6 +19,16 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -29,8 +36,8 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
