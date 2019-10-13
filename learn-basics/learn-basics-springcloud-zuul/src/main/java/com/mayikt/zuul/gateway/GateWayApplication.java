@@ -35,7 +35,7 @@ import java.util.List;
 @EnableApolloConfig
 //@EnableFeignClients(basePackages = "com.mayikt.api")  //开启FeignClient支持
 @MapperScan(value = "com.mayikt.zuul.gateway.mapper")
-@ComponentScan(basePackages = "com.mayikt.zuul")
+@ComponentScan(basePackages = {"com.mayikt.zuul","com.unity"})
 @EnableAsync
 public class GateWayApplication {
 	/**

@@ -1,11 +1,16 @@
 package com.mayikt.zuul.gateway.builder.impl;
 
+import com.alibaba.fastjson.JSONObject;
+import com.mayikt.author.service.AuthorizationService;
 import com.mayikt.zuul.gateway.builder.GetWayBuild;
 import com.mayikt.zuul.gateway.mapper.BlacklistMapper;
 import com.mayikt.zuul.gateway.mapper.entity.MeiteBlackList;
 import com.netflix.zuul.context.RequestContext;
+import com.unity.core.base.BaseResponse;
+import com.unity.core.constants.Constants;
 import com.unity.core.core.utils.sign.SignUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -25,6 +30,8 @@ import java.util.Map;
 public class VerificationBuild implements GetWayBuild {
 
     @Autowired BlacklistMapper blacklistMapper;
+    @Autowired
+    AuthorizationService authorizationService;
 
     /**
      * 白名单的实现方式
@@ -64,6 +71,40 @@ public class VerificationBuild implements GetWayBuild {
         }
         return true;
 
+    }
+
+    @Override
+    public Boolean apiAuthority(RequestContext ctx, HttpServletRequest request) {
+        String servletPath = request.getServletPath();
+        log.info(">>>>>servletPath:" + servletPath + ",servletPath.substring(0, 5):" + servletPath.substring(0, 5));
+        if (!servletPath.substring(0, 7).equals("/public")) {
+            return true;
+        }
+        String accessToken = request.getParameter("accessToken");
+        log.info(">>>>>accessToken验证:" + accessToken);
+        if (StringUtils.isEmpty(accessToken)) {
+            resultError(ctx, "AccessToken cannot be empty");
+            return false;
+        }
+        // 调用接口验证accessToken是否失效
+        BaseResponse<JSONObject> appInfo = authorizationService.getAppInfo(accessToken);
+        log.info(">>>>>>data:" + appInfo.toString());
+        if (!isSuccess(appInfo)) {
+            resultError(ctx, appInfo.getMsg());
+            return false;
+        }
+        return true;
+    }
+
+    // 接口直接返回true 或者false
+    public Boolean isSuccess(BaseResponse<?> baseResp) {
+        if (baseResp == null) {
+            return false;
+        }
+        if (!baseResp.getCode().equals(Constants.HTTP_RES_CODE_200)) {
+            return false;
+        }
+        return true;
     }
 
     /**

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -18,6 +18,8 @@
 		<module>learn-service-api-member</module>
 		<module>learn-service-api-goods</module>
 		<module>learn-service-api-pay</module>
+		<module>learn-mayikt-api-spike</module>
+		<module>com-mayikt-api-author</module>
 	</modules>
 
 	<dependencies>
@@ -28,11 +30,11 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<!--common核心依赖-->
-	<!--	<dependency>
-			<groupId>com.mayikt</groupId>
-			<artifactId>meite-shop-servi-core</artifactId>
-			<version>1.0-RELEASE</version>
-		</dependency>-->
+		<!--	<dependency>
+                <groupId>com.mayikt</groupId>
+                <artifactId>meite-shop-servi-core</artifactId>
+                <version>1.0-RELEASE</version>
+            </dependency>-->
 		<!--feign相关-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

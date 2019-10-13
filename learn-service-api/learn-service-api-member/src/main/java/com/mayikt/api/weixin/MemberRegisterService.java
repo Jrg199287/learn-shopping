@@ -12,16 +12,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Api(tags = "会员注册接口")
 public interface MemberRegisterService {
-	/**
-	 * 用户注册接口
-	 * 
-	 * @param userEntity
-     * @param  registCode
-	 * @return
-	 */
-	@PostMapping("/member/register")
-	@ApiOperation(value = "会员用户注册信息接口")
-	BaseResponse<JSONObject> register(@RequestBody UserInpDTO userEntity,
-									  @RequestParam("registCode") String registCode);
+    /**
+     * 用户注册接口
+     *
+     * @param userEntity
+     * @param registCode
+     * @return
+     */
+    @PostMapping("/member/register")
+    @ApiOperation(value = "会员用户注册信息接口")
+    BaseResponse<JSONObject> register(@RequestBody UserInpDTO userEntity,
+                                      @RequestParam("registCode") String registCode);
 
 }

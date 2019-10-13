@@ -11,23 +11,23 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Api(tags = "用户登陆服务接口")
 public interface MemberLoginService {
-	/**
-	 * 用户登陆接口
-	 * 
-	 * @param userLoginInpDTO
-	 * @return
-	 */
-	@PostMapping("/member/login")
-	@ApiOperation(value = "会员用户登陆信息接口")
-	BaseResponse<JSONObject> login(@RequestBody UserLoginInpDTO userLoginInpDTO);
+    /**
+     * 用户登陆接口
+     *
+     * @param userLoginInpDTO
+     * @return
+     */
+    @PostMapping("/member/login")
+    @ApiOperation(value = "会员用户登陆信息接口")
+    BaseResponse<JSONObject> login(@RequestBody UserLoginInpDTO userLoginInpDTO);
 
-	/**
-	 * 删除登陆token
-	 *
-	 * @return
-	 */
-	@PostMapping("/delToken")
-	@ApiOperation(value = "删除登陆token")
-	BaseResponse<JSONObject> delToken(@RequestParam("token") String token);
+    /**
+     * 删除登陆token
+     *
+     * @return
+     */
+    @PostMapping("/delToken")
+    @ApiOperation(value = "删除登陆token")
+    BaseResponse<JSONObject> delToken(@RequestParam("token") String token);
 
 }

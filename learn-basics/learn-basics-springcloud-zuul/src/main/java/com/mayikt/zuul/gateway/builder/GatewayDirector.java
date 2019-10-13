@@ -31,5 +31,5 @@ public class GatewayDirector {
 			return;
 		}
 	}
-
+// 如何重构思路；装饰 、责任量 将每不操作存放到抽象工厂中，遍历工厂即可。 遍历遍历所有的实现
 }

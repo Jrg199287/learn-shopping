@@ -11,11 +11,11 @@
     <packaging>pom</packaging>
     <artifactId>learn-service-api-weixin</artifactId>
     <dependencies>
-       <!-- <dependency>
-            <groupId>com.jiaorg.springcloud-demo</groupId>
-            <artifactId>meite-shop-api-weixin-dto</artifactId>
-            <version>1.0-RELEASE</version>
-        </dependency>-->
+        <!-- <dependency>
+             <groupId>com.jiaorg.springcloud-demo</groupId>
+             <artifactId>meite-shop-api-weixin-dto</artifactId>
+             <version>1.0-RELEASE</version>
+         </dependency>-->
         <dependency>
             <groupId>learn-weixin-dto</groupId>
             <artifactId>learn-weixin-dto</artifactId>

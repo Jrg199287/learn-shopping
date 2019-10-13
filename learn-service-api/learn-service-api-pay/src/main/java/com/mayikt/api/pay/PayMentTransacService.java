@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 public interface PayMentTransacService {
 
-	/**
-	 * 创建支付令牌
-	 * 
-	 * @return
-	 */
-	@PostMapping("/cratePayToken")
-	public BaseResponse<JSONObject> cratePayToken(@Validated PayCratePayTokenDto payCratePayTokenDto);
+    /**
+     * 创建支付令牌
+     *
+     * @return
+     */
+    @PostMapping("/cratePayToken")
+    public BaseResponse<JSONObject> cratePayToken(@Validated PayCratePayTokenDto payCratePayTokenDto);
 }

@@ -17,6 +17,8 @@
         <module>learn-service-memberimpl</module>
         <module>learn-service-goods-impl</module>
         <module>learn-service-pay-impl</module>
+        <module>learn-servicve-author-regist</module>
+        <module>learn-service-spike-impl</module>
     </modules>
 
     <dependencies>

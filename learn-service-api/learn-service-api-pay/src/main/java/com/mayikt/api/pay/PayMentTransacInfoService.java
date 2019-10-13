@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 /**
- * 
+ *
  */
 public interface PayMentTransacInfoService {
-	@GetMapping("/tokenByPayMentTransac")
-	public BaseResponse<PayMentTransacDTO> tokenByPayMentTransac(@RequestParam("token") String token);
+    @GetMapping("/tokenByPayMentTransac")
+    public BaseResponse<PayMentTransacDTO> tokenByPayMentTransac(@RequestParam("token") String token);
 }

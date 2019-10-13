@@ -1,6 +1,7 @@
 package com.mayikt.zuul.gateway.filter;
 
 import com.mayikt.zuul.gateway.builder.GatewayDirector;
+import com.mayikt.zuul.gateway.handler.GatewayHandler;
 import com.mayikt.zuul.gateway.handler.ResponsibilityClient;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
@@ -34,10 +35,10 @@ public class GatewayFilter extends ZuulFilter {
 		// 1.获取请求对象
 		HttpServletRequest request = ctx.getRequest();
 		HttpServletResponse response = ctx.getResponse();
-		String adress = getIpAddr(request);
-		gatewayDirector.direcot(ctx,adress,response,request);
-		//GatewayHandler handler = responsibilityClient.getHandler();
-		//handler.service(ctx, request, response);
+		/*String adress = getIpAddr(request);
+		gatewayDirector.direcot(ctx,adress,response,request);*/
+		GatewayHandler handler = responsibilityClient.getHandler();
+		handler.service(ctx, request, response);
 		return null;
 	}
 	// public/api/api-pay/cratePayToken?payAmount=300222&orderId=2019010203501502&userId=644064

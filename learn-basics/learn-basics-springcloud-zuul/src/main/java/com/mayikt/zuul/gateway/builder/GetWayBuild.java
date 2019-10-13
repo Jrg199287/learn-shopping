@@ -29,4 +29,10 @@ public interface GetWayBuild {
      * @return
      */
     Boolean toVerifyMap(RequestContext req, String ipAddres, HttpServletRequest request);
+    /**
+     * api权限控制
+     *
+     * @return
+     */
+    Boolean apiAuthority(RequestContext ctx, HttpServletRequest request) ;
 }

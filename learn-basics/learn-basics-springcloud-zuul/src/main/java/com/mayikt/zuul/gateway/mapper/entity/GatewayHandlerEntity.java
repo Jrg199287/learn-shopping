@@ -27,6 +27,8 @@ public class GatewayHandlerEntity implements Serializable, Cloneable {
 	private String handlerName;
 	/** handler主键id */
 	private String handlerId;
+
+	private String prevHandlerId;
 	/** 下一个handler */
 	private String nextHandlerId;
 	/** 是否打开 */

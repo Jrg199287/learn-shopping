@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
+
 @Api(tags = "Elasticsearch查询接口")
 public interface GoodsProductsInfo {
     /**
-     *
      * @param goodId
      * @return
      */

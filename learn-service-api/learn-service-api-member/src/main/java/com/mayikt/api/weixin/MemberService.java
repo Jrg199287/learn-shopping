@@ -30,7 +30,7 @@ public interface MemberService {
      */
     @ApiOperation(value = "根据手机号码查询是否已经存在")
     @ApiImplicitParams({
-            @ApiImplicitParam(paramType = "query", name = "mobile", dataType = "String", required = true, value = "用户手机号码"), })
+            @ApiImplicitParam(paramType = "query", name = "mobile", dataType = "String", required = true, value = "用户手机号码"),})
     @PostMapping("/existMobile")
     BaseResponse<UserOutDTO> existMobile(@RequestParam("mobile") String mobile);
 
@@ -43,7 +43,6 @@ public interface MemberService {
     @GetMapping("/getUserInfo")
     @ApiOperation(value = "/getUserInfo")
     BaseResponse<UserOutDTO> getInfo(@RequestParam("token") String token);
-
 
 
     /**
